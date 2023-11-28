@@ -1,0 +1,92 @@
+/*----------------------------------------------------- Images */
+
+.hero-img-home {
+    position: relative;
+    background: url('../images/hero-home-small_v2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-img-home::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #ffffff00, #DDD0C8);
+}
+
+/*----------------------------------------------------- Nav Bar */
+
+.navbar-brand {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 45px;
+    color: #DDD0C8;
+    letter-spacing: 2px;
+}
+
+.nav-menu {
+    background-color: #2f4858;
+}
+
+.navbar-nav .nav-item a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    color: #DDD0C8;
+    padding-top: 10px;
+}
+
+.hamburger-menu {
+    background-color: #DDD0C8;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #DDD0C8;
+    text-decoration: underline;
+}
+
+/*----------------------------------------------------- Fonts */
+
+h1, h3, h5 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*----------------------------------------------------- Home */
+
+.question-section {
+    position: absolute;
+    top: 25%;
+    right: 15px;
+}
+
+.question-section h1 {
+    font-size: 60px;
+    color: #2f4858;
+}
+
+.question-button {
+    font-family: "Roboto", sans-serif;
+    color: #DDD0C8;
+    background-color: #2f4858;
+    border-color: #2f4858;
+}
+
+.question-button:hover {
+    color: #2f4858;
+    border-color: #2f4858;
+}
+
+/*----------------------------------------------------- What We Do */
+
+/*----------------------------------------------------- Sustainability */
+
+/*----------------------------------------------------- Who Are We */
+
+/*----------------------------------------------------- Contact Us */
