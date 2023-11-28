@@ -47,6 +47,8 @@ Bootstrap V5
 
 Chat GPT to help troubleshoot and learn why things were behaving in a certain way.
 
+I learnt a few tricks with CSS when I first started practicing coding with [Free Code Camp](https://www.freecodecamp.org/) which has helped me in this course.
+
 ### Issues
 
 Creating the fade on the heror image. I used Linear Gradient which I learnt when I first started learn about CSS with [Free Code Camp](https://www.freecodecamp.org/).
