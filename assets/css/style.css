@@ -145,7 +145,6 @@ p {
     margin-bottom: 0;
     margin-left: 10px;
     color: #DDD0C8;
-    font-family: 'Roboto', sans-serif;
 }
 
 .contact-hours-info h4 {
@@ -216,3 +215,163 @@ p {
 /*----------------------------------------------------- Who Are We */
 
 /*----------------------------------------------------- Contact Us */
+
+/*----------------------------------------------------- Media Queries */
+/*---------------- Home ----------------*/
+
+@media (min-width: 769px) {
+    .navbar-toggler {
+        position: relative;
+        font-size: 24px;
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+    }
+
+    .hamburger-menu span {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        right: 4px;
+        width: 30px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+ 
+    .logo-section {
+        font-size: 30px;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        font-size: 24px;
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+    }
+
+    .hamburger-menu span {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        right: 4px;
+        width: 30px;
+        height: 20px;
+    }
+
+    .hero-img-home {
+        height: 50vh;
+    }
+
+    .question-section h1 {
+        font-size: 50px;
+    }
+
+    .why-section-heading h3 {
+        font-size: 40px;
+    }
+
+    .why-section p {
+        font-size: 15px;
+    }
+
+    .contact-hours-info p {
+        font-size: 13px;
+    }
+
+    #footer-details .social-icons {
+        justify-content: center;
+    }
+
+    .social-links {
+        padding-right: 0;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .question-section h1 {
+        font-size: 37px;
+    }
+
+    .why-section-heading h3 {
+        font-size: 35px;
+        letter-spacing: 0;
+    }
+
+    .why-section h5 {
+        font-size: 23px;
+        letter-spacing: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo-section {
+        font-size: 20px;
+    }
+
+    .question-section h1 {
+        font-size: 30px;
+    }
+
+    .why-section-heading h3 {
+        font-size: 25px;
+        letter-spacing: 0;
+    }
+
+    .why-section h5 {
+        font-size: 23px;
+        letter-spacing: 0;
+    }
+
+    .why-section p {
+        font-size: 13px;
+    }
+
+    .contact-hours-info p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    .hero-img-home {
+        height: 30vh;
+    }
+    
+    .logo-section {
+        font-size: 22px;
+    }
+
+    .question-section h1 {
+        font-size: 25px;
+    }
+
+    .why-section-heading h3 {
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+
+    .why-section h5 {
+        font-size: 18px;
+        letter-spacing: 0;
+    }
+
+    .why-section p {
+        font-size: 10px;
+    }
+
+    .contact-hours-info p {
+        font-size: 10px;
+    }
+
+    #footer-details .social-icons {
+        justify-content: center;
+    }
+
+    .social-links {
+        padding-right: 0;
+    }
+}
