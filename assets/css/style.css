@@ -407,6 +407,11 @@ p {
 }
 
 @media (max-width: 425px) {
+
+    .hero-img-home {
+        height: 50vh;
+    }
+
     .question-section h1,
     .what-text-content-section h1 {
         font-size: 37px;
