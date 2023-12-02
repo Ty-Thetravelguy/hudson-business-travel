@@ -28,8 +28,7 @@ html, body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to right, #ffffff00, #DDD0C8);
-    
+    background: linear-gradient(to right, #ffffff00, #DDD0C8); 
 }
 
 .hero-what-we-do {
@@ -39,6 +38,66 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
+}
+
+.corp-travel {
+    position: relative;
+    background: url('../images/corporate-travel-small.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.private-jet-travel {
+    position: relative;
+    background: url('../images/private-jet-small.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.marine-travel {
+    position: relative;
+    background: url('../images/marine-travel-small.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.group-travel {
+    position: relative;
+    background: url('../images/groups-small.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.meeting-room {
+    position: relative;
+    background: url('../images/meetings-small.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.visa-travel {
+    position: relative;
+    background: url('../images/visas-small.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
 }
 
 /*----------------------------------------------------- Nav Bar */
@@ -52,7 +111,6 @@ html, body {
 
 .nav-menu {
     background-color: #2f4858;
-    box-sizing: content-box;
 }
 
 .navbar-nav .nav-item a {
@@ -226,13 +284,40 @@ p {
     color: #2f4858;
 }
 
-.what-text-content-section p {
+.what-text-content-section p,
+.expertise-section p {
     font-size: 18px;
     color: #2f4858;
+}
+
+.what-text-content-section p {
     padding-bottom: 30px;
 }
 
+.expertise-section h3 {
+    font-size: 50px;
+    color: #2f4858;
+}
 
+.expertise-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.expertise-text h5 {
+    color: #DDD0C8;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+.expertise-section-img {
+    padding-bottom: 40px;
+}
 
 
 
@@ -288,18 +373,22 @@ p {
     }
 
     .hero-img-home {
-        height: 50vh;
+        height: 70vh;
     }
 
-    .question-section h1 {
+    .question-section h1,
+    .what-text-content-section h1 {
         font-size: 50px;
     }
 
-    .why-section-heading h3 {
+    .why-section-heading h3,
+    .expertise-section h3 {
         font-size: 40px;
     }
 
-    .why-section p {
+    .why-section p,
+    .what-text-content-section p,
+    .expertise-section p {
         font-size: 15px;
     }
 
@@ -318,11 +407,13 @@ p {
 }
 
 @media (max-width: 425px) {
-    .question-section h1 {
+    .question-section h1,
+    .what-text-content-section h1 {
         font-size: 37px;
     }
 
-    .why-section-heading h3 {
+    .why-section-heading h3,
+    .expertise-section h3 {
         font-size: 35px;
         letter-spacing: 0;
     }
@@ -333,62 +424,8 @@ p {
     }
 }
 
-@media (max-width: 375px) {
-    .logo-section {
-        font-size: 20px;
-    }
-
-    .question-section h1 {
-        font-size: 30px;
-    }
-
-    .why-section-heading h3 {
-        font-size: 25px;
-        letter-spacing: 0;
-    }
-
-    .why-section h5 {
-        font-size: 23px;
-        letter-spacing: 0;
-    }
-
-    .why-section p {
-        font-size: 13px;
-    }
-
-    .contact-hours-info p {
-        font-size: 12px;
-    }
-}
-
 @media (max-width: 320px) {
     
-    .hero-img-home {
-        height: 30vh;
-    }
-    
-    .logo-section {
-        font-size: 22px;
-    }
-
-    .question-section h1 {
-        font-size: 25px;
-    }
-
-    .why-section-heading h3 {
-        font-size: 20px;
-        letter-spacing: 0;
-    }
-
-    .why-section h5 {
-        font-size: 18px;
-        letter-spacing: 0;
-    }
-
-    .why-section p {
-        font-size: 10px;
-    }
-
     .contact-hours-info p {
         font-size: 10px;
     }

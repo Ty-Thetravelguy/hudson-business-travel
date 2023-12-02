@@ -61,3 +61,5 @@ I had massive issues with creating media queries. I really struggled to the cont
 I had issues with the meet the team section and the photos i was adding. I used Chat GPT but still coudln't get it to look how i wanted it to. I intially used the img selector but after not be able to get the positing correct, i moved the imgages to the sytle.css file. I copied what i did for the what we do section and change the border raides so the images were round.
 
 On the contact us page, I wanted to add a google maps in iframe selector, but very quickly released that it didn't work as planed. Are doing some research, i found that i needed an google api which I looked into, created one and added to my page.
+
+After completing my website, I decided to do it all over again because the css was very messy, and I also wanted to structure the html a bit better. One of the things I wanted to do was ensure the navbar stuck to stop of screen and wasn't past of hero image. But now that i've done that, the nav bar isn't sticking to the top. I aslo want the hamburger menu to be on the right on smaller screens which i'm struggling to figure out.
