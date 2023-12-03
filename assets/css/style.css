@@ -202,6 +202,11 @@ html, body {
     letter-spacing: 2px;
 }
 
+.navbar-brand:hover {
+    color: #DDD0C8;
+    text-decoration: underline
+}
+
 .nav-menu {
     background-color: #2f4858;
 }
@@ -273,7 +278,7 @@ p {
 }
 
 .why-section-heading h3 {
-    font-size: 50px;
+    font-size: 70px;
     letter-spacing: 1px;
 }
 
@@ -288,7 +293,7 @@ p {
 
 .why-section-context {
     color: #2f4858;
-    padding: 20px 20px 30px 20px;
+    padding: 40px 20px 40px 20px;
 }
 
 /*----------------------------------------------------- Footer */
@@ -622,7 +627,9 @@ label p {
         height: 50vh;
     }
 
-    .hero-img-c
+    .hero-img-contact-us {
+        height: 25vh;
+    }
 
     .question-section h1,
     .what-text-content-section h1,
@@ -645,7 +652,8 @@ label p {
     .sustainability-section p,
     .meet-the-team p,
     .vision-section p,
-    .values-content p  {
+    .values-content p,
+    .address p  {
         font-size: 15px;
     }
 
@@ -659,6 +667,11 @@ label p {
 
     .social-links {
         padding-right: 0;
+    }
+
+    .address h5,
+    .address p {
+        padding-left: 20px;
     }
 
 }
@@ -688,6 +701,7 @@ label p {
         font-size: 23px;
         letter-spacing: 0;
     }
+
 }
 
 @media (max-width: 320px) {
