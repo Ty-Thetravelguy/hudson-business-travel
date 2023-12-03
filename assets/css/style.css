@@ -31,9 +31,27 @@ html, body {
     background: linear-gradient(to right, #ffffff00, #DDD0C8); 
 }
 
-.hero-what-we-do {
+.hero-img-what-we-do {
     position: relative;
     background: url('../images/hero-what-we-do-small-v2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.hero-img-sustainability {
+    position: relative;
+    background: url('../images/hero-sustainability-small-v3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.hero-img-who-are-we {
+    position: relative;
+    background: url('../images/hero-who-are-we-v2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,13 +118,70 @@ html, body {
     height: 250px;
 }
 
-.hero-sustainability {
+.ceo-img {
+    background: url('../images/ceo-small.jpg');
     position: relative;
-    background: url('../images/sustainability-small-v3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 75vh;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.cfo-img {
+    background: url('../images/cfo-small.jpg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.hoops-img {
+    background: url('../images/head-of-ops-small.jpg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.hoaacc-img {
+    background: url('../images/head-of-accounts-small.jpg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.hoacc-man-img {
+    background: url('../images/head-of-account-managment-small.jpeg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.hocom-img {
+    background: url('../images/head-of-commerrcials-small.jpg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
 
 /*----------------------------------------------------- Nav Bar */
@@ -142,7 +217,8 @@ html, body {
 
 .why-section-bg-color,
 .what-section-bg-color,
-.sustainability-section-bg-color {
+.sustainability-section-bg-color,
+.who-are-we-section-bg-color {
     background-color: #DDD0C8;
 }
 
@@ -339,7 +415,7 @@ p {
     font-size: 60px;
     padding: 40px 0 20px 0;
     color: #2f4858;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .sustainability-section p {
@@ -354,6 +430,55 @@ p {
 
 
 /*----------------------------------------------------- Who Are We */
+
+.meet-the-team h1 {
+    font-size: 60px;
+    padding: 40px 0 20px 0;
+    color: #2f4858;
+    letter-spacing: 1px;
+}
+
+.meet-the-team p,
+.vision-section p,
+.values-content p {
+    font-size: 18px;
+    color: #2f4858;
+}
+
+.vision-section h3,
+.values-section h3 {
+    font-size: 50px;
+    color: #2f4858;
+    letter-spacing: 1px; 
+}
+
+.staff-names {
+    position: absolute;
+    bottom: -60px;
+    right: -10px;
+    width: 270px;
+    background: rgba(47, 72, 88, 0.8);
+    text-align: center;
+    padding: 5px 0;
+    color: #DDD0C8;
+}
+
+.staff-member {
+    margin: 3rem;
+}
+
+.vision-section {
+    padding: 60px 0 30px 0;  
+}
+
+.values-section-row {
+    padding: 20px 0 30px 0;
+}
+
+.values-content {
+    padding: 10px;
+}
+
 
 /*----------------------------------------------------- Contact Us */
 
@@ -406,25 +531,33 @@ p {
         height: 70vh;
     }
 
-    .hero-sustainability {
+    .hero-img-sustainability,
+    .hero-img-what-we-do,
+    .hero-img-who-are-we {
         height: 50vh;
     }
 
     .question-section h1,
     .what-text-content-section h1,
-    .sustainability-section h1 {
+    .sustainability-section h1,
+    .meet-the-team h1 {
         font-size: 50px;
     }
 
     .why-section-heading h3,
-    .expertise-section h3 {
+    .expertise-section h3,
+    .vision-section h3,
+    .values-section h3 {
         font-size: 40px;
     }
 
     .why-section p,
     .what-text-content-section p,
     .expertise-section p,
-    .sustainability-section p {
+    .sustainability-section p,
+    .meet-the-team p,
+    .vision-section p,
+    .values-content p  {
         font-size: 15px;
     }
 
@@ -450,12 +583,15 @@ p {
 
     .question-section h1,
     .what-text-content-section h1,
-    .sustainability-section h1 {
+    .sustainability-section h1,
+    .meet-the-team h1 {
         font-size: 37px;
     }
 
     .why-section-heading h3,
-    .expertise-section h3 {
+    .expertise-section h3,
+    .vision-section h3,
+    .values-section h3 {
         font-size: 35px;
         letter-spacing: 0;
     }
