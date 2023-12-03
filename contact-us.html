@@ -49,7 +49,7 @@
     </nav>
   </div>
   <!--hero image and contact us section-->
-  <div class="container-fluid here-img-contact-us">
+  <div class="container-fluid hero-img-contact-us">
   </div>
   <div class="contact-us-section contact-us-section-bg-color">
     <div class="container-fluid ">
@@ -87,7 +87,7 @@
               </div>
               <!-- Text Input Box (Message) -->
               <div class="form-group">
-              <textarea id="message" class="form-control messag" name="message" rows="10" cols="50" placeholder="Your Message:" required></textarea>
+              <textarea id="message" class="form-control message" name="message" rows="10" cols="50" placeholder="Your Message:" required ></textarea>
               </div>
               <!-- Submit Button -->
               <div class="form-group submit-butt">
@@ -98,20 +98,22 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container address-map-section justify-content-center">
       <div class="row justify-content-center address-section">
-        <div class=" col-12 col-lg-4 address">
+        <div class=" col-12 col-md-6 col-lg-4 col-xl-3 address">
           <h5>Location:</h5>
           <p>WeWork - Office Space & Coworking</p>
           <p>7th Floor</p>
           <p>120 Moorgate,</p>
           <p>London </p>
           <p>EC2M 6UR</p>
+          <p class="d-block d-sm-block d-md-none">Find us <a href="https://shorturl.at/hIRX5" target="_blank">here</a></p>
           <p class="phone">Phone: <span>+44 (0) 20 3695 7895</span></p>
           
         </div>
-        <div class="col-12 col-lg-4 map-section">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 map-section">
           <iframe
+          class="d-none d-md-block"
           width="300"
           height="160"
           style="border:0"

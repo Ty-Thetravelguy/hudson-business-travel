@@ -58,7 +58,7 @@ html, body {
     height: 75vh;
 }
 
-.here-img-contact-us {
+.hero-img-contact-us {
     position: relative;
     background: url('../images/hero-contact-us-small-v2.jpg');
     background-position: center;
@@ -227,13 +227,10 @@ html, body {
 .why-section-bg-color,
 .what-section-bg-color,
 .sustainability-section-bg-color,
-.who-are-we-section-bg-color {
+.who-are-we-section-bg-color,
+.contact-us-section-bg-color {
     background-color: #DDD0C8;
 }
-
-
-
-
 
 /*----------------------------------------------------- Fonts */
 
@@ -245,8 +242,6 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-
-
 /*----------------------------------------------------- Home */
 
 .question-section {
@@ -256,7 +251,7 @@ p {
 }
 
 .question-section h1 {
-    font-size: 60px;
+    font-size: 70px;
     color: #2f4858;
 }
 
@@ -374,7 +369,7 @@ p {
 /*----------------------------------------------------- What We Do */
 
 .what-text-content-section h1 {
-    font-size: 60px;
+    font-size: 70px;
     padding: 40px 0 20px 0;
     color: #2f4858;
     letter-spacing: 1px;
@@ -420,7 +415,7 @@ p {
 /*----------------------------------------------------- Sustainability */
 
 .sustainability-section h1 {
-    font-size: 60px;
+    font-size: 70px;
     padding: 40px 0 20px 0;
     color: #2f4858;
     letter-spacing: 1px;
@@ -440,7 +435,7 @@ p {
 /*----------------------------------------------------- Who Are We */
 
 .meet-the-team h1 {
-    font-size: 60px;
+    font-size: 70px;
     padding: 40px 0 20px 0;
     color: #2f4858;
     letter-spacing: 1px;
@@ -495,7 +490,7 @@ p {
 }
 
 .contact-section h1 {
-    font-size: 60px;
+    font-size: 70px;
     padding: 40px 0 20px 0;
     color: #2f4858;
     letter-spacing: 1px;
@@ -504,6 +499,72 @@ p {
 label p {
     margin-bottom: 3px;
     font-size: 15px;
+    color: #2f4858;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.name,
+.enquiry-type,
+.email,
+.contact-number,
+.company-name,
+.message {
+    border: #A69199;
+    background-color: #C4B0AE;
+    color: #2f4858;
+    border-style: solid;
+}
+
+.name::placeholder,
+.email::placeholder,
+.contact-number::placeholder,
+.company-name::placeholder,
+.message::placeholder {
+    color: #2f4858;
+    font-style: italic;
+}
+
+.submit-butt button {
+    color: #DDD0C8;
+    background-color: #2f4858;
+    border-color: #2f4858;
+    font-weight: 500;
+}
+
+.submit-button:hover {
+    border-color: #2f4858;
+    border-style: solid;
+    color: #2f4858;
+}
+
+.address h5 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #2f4858;
+}
+
+.address p {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #2f4858;
+}
+
+.phone {
+    padding-top: 15px;
+}
+
+.map-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.address-map-section {
+    padding: 3rem 0 3rem;
 }
 
 /*----------------------------------------------------- Media Queries */
@@ -561,10 +622,13 @@ label p {
         height: 50vh;
     }
 
+    .hero-img-c
+
     .question-section h1,
     .what-text-content-section h1,
     .sustainability-section h1,
-    .meet-the-team h1 {
+    .meet-the-team h1,
+    .contact-section h1 {
         font-size: 50px;
     }
 
