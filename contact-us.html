@@ -51,12 +51,13 @@
   <!--hero image and contact us section-->
   <div class="container-fluid here-img-contact-us">
   </div>
-  <div class="contact-us-section">
+  <div class="contact-us-section contact-us-section-bg-color">
     <div class="container-fluid ">
       <div class="row justify-content-center">
         <div class="col-12 col-lg-4 contact-section">
           <h1 class="text-center">Contact Us</h1>
           <div class="center-form">
+            <!--Contact us form-->
             <form action="/submit-form" method="post">
               <!-- Name Field -->
               <div class="form-group">
@@ -64,9 +65,9 @@
               </div>
               <!-- Type of Enquiry Dropdown -->
               <div class="form-group">
+                <label for="enquiry-type"><p>Type of Enquiry</p></label>
               <select name="enquiry-type" class="form-select enquiry-type" id="enquiry-type">
-                  <option selected class="option">Type of Enquiry</option>
-                  <option value="new-business">New Business Enquiry</option>
+                  <option selected value="new-business">New Business Enquiry</option>
                   <option value="existing-client">Existing Client</option>
                   <option value="supplier">I'm a Supplier</option>
                   <option value="employee">Work for Hudson Business Travel</option>

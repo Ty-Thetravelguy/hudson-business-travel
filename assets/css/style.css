@@ -490,6 +490,22 @@ p {
 
 /*----------------------------------------------------- Contact Us */
 
+.form-group {
+    margin: 1rem;
+}
+
+.contact-section h1 {
+    font-size: 60px;
+    padding: 40px 0 20px 0;
+    color: #2f4858;
+    letter-spacing: 1px;
+}
+
+label p {
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+
 /*----------------------------------------------------- Media Queries */
 /*---------------- Home ----------------*/
 
