@@ -37,7 +37,7 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 75vh;
 }
 
 .corp-travel {
@@ -100,6 +100,15 @@ html, body {
     height: 250px;
 }
 
+.hero-sustainability {
+    position: relative;
+    background: url('../images/sustainability-small-v3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
 /*----------------------------------------------------- Nav Bar */
 
 .navbar-brand {
@@ -132,7 +141,8 @@ html, body {
 /*----------------------------------------------------- Background Colours */
 
 .why-section-bg-color,
-.what-section-bg-color {
+.what-section-bg-color,
+.sustainability-section-bg-color {
     background-color: #DDD0C8;
 }
 
@@ -184,7 +194,7 @@ p {
 
 .why-section-heading h3 {
     font-size: 50px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .why-section h5 {
@@ -282,6 +292,7 @@ p {
     font-size: 60px;
     padding: 40px 0 20px 0;
     color: #2f4858;
+    letter-spacing: 1px;
 }
 
 .what-text-content-section p,
@@ -297,6 +308,7 @@ p {
 .expertise-section h3 {
     font-size: 50px;
     color: #2f4858;
+    letter-spacing: 1px;
 }
 
 .expertise-text {
@@ -322,6 +334,24 @@ p {
 
 
 /*----------------------------------------------------- Sustainability */
+
+.sustainability-section h1 {
+    font-size: 60px;
+    padding: 40px 0 20px 0;
+    color: #2f4858;
+    letter-spacing: 2px;
+}
+
+.sustainability-section p {
+    font-size: 18px;
+    color: #2f4858;
+    padding-bottom: 20px;
+}
+
+.sustainability-section {
+    padding-bottom: 10px;
+}
+
 
 /*----------------------------------------------------- Who Are We */
 
@@ -376,8 +406,13 @@ p {
         height: 70vh;
     }
 
+    .hero-sustainability {
+        height: 50vh;
+    }
+
     .question-section h1,
-    .what-text-content-section h1 {
+    .what-text-content-section h1,
+    .sustainability-section h1 {
         font-size: 50px;
     }
 
@@ -388,7 +423,8 @@ p {
 
     .why-section p,
     .what-text-content-section p,
-    .expertise-section p {
+    .expertise-section p,
+    .sustainability-section p {
         font-size: 15px;
     }
 
@@ -413,7 +449,8 @@ p {
     }
 
     .question-section h1,
-    .what-text-content-section h1 {
+    .what-text-content-section h1,
+    .sustainability-section h1 {
         font-size: 37px;
     }
 
