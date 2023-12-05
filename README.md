@@ -6,7 +6,7 @@ Hudson Business Travel has established itself as a frontrunner in the corporate 
 
 At the core of Hudson Business Travel’s ethos is a relentless drive for innovation. They integrate the latest technology in travel management, providing advanced booking systems and real-time itinerary tracking to ensure clients are always a step ahead. Hudson Business Travel is synonymous with excellence and integrity in the corporate travel sector, offering more than just travel arrangements. They are a committed partner in their clients’ professional journeys, ensuring every trip is smooth, efficient, and perfectly aligned with business objectives.
 
-### Hudson Business Travel - Business Needs
+### Business Needs
 
 1. Brand Awareness: In today's digital era, an online presence is crucial for reaching a wider audience. A website increases brand visibility and recognition, making Hudson Business Travel known to potential clients who rely on the Internet for corporate travel solutions. It's essential for expanding the company's reach beyond traditional boundaries.
 2. Professional Image: A website is often the first point of interaction between a company and its potential clients. A well-designed website conveys a sense of professionalism and legitimacy. It reinforces Hudson Business Travel's image as a reliable and established player in the corporate travel sector, which is vital for building trust with prospective clients.
@@ -25,7 +25,9 @@ At the core of Hudson Business Travel’s ethos is a relentless drive for innova
 6. Corporate Identity and Branding: Users expect the website to reflect the corporate identity of Hudson Business Travel, with professional design and branding that aligns with the company’s image and market position.
 7. Sustainability Commitment: Hudson Business Travel wants to showcase its commitment to eco-friendly travel, aligning with industry trends towards environmental responsibility and positioning itself as a progressive, eco-conscious leader in the sector.
 
-### Design Process
+## Design Process
+
+### Process
 
 To effectively meet our business goals and cater to the needs of our users, I have planned a four-page, responsive website design. This ensures optimal viewing and interaction experience across all devices, maintaining aesthetics and functionality regardless of screen size.
 
@@ -39,7 +41,37 @@ To effectively meet our business goals and cater to the needs of our users, I ha
 
 *Contact Us Page*: Designed for direct user interaction, the ‘Contact Us’ page features a straightforward layout with a header image in line with the site’s theme. Central to this page is a contact form complemented by the company’s address, contact number, and an integrated Google Maps location. The footer, uniform across the site, includes contact details and social media links, providing users with multiple channels to contact Business Travel.
 
-### Technoligy used
+### Colour Palette
+
+![Color Palette](assets/images-readme/color-palette.png)
+
+### Wire Frame
+
+#### Web layout
+
+![index.html](assets/images-readme/wire-frame-web-index.html.png)
+![what-we-do.html](assets/images-readme/wire-frame-web-what-we-do.html.png)
+![sustainability.html](assets/images-readme/wire-frame-web-sustainability.html.png)
+![who-are-we.html](assets/images-readme/wire-frame-web-who-are-we.html.png)
+![contact-us.html](assets/images-readme/wire-frame-web-contact-us.html.png)
+
+### Tablet layout
+
+![index.html](assets/images-readme/wire-frame-tablet-index.html-v2.png)
+![what-we-do.html](assets/images-readme/wire-frame-tablet-what-we-do.html-v2.png)
+![sustainability.html](assets/images-readme/wire-frame-tablet-sustainability.html-v2.png)
+![who-are-we.html](assets/images-readme/wire-frame-tablet-who-we-are.html-v2.png)
+![contact-us.html](assets/images-readme/wire-frame-tablet-contact-us.html-v2.png)
+
+### Phone layout
+
+![index.html](assets/images-readme/wire-frame-phone-index.html-v2.png)
+![what-we-do.html](assets/images-readme/wire-frame-phone-what-we-do.html-v2.png)
+![sustainability.html](assets/images-readme/wire-frame-phone-sustainability.html-v2.png)
+![who-are-we.html](assets/images-readme/wire-frame-phone-who-we-are.html-v2.png)
+![contact-us.html](assets/images-readme/wire-frame-phone-contact-us.html-v2.png)
+
+## Technoligy used
 
 HTML5 / CSS3
 
@@ -49,7 +81,7 @@ Chat GPT to help troubleshoot and learn why things were behaving in a certain wa
 
 I learnt a few tricks with CSS when I first started practicing coding with [Free Code Camp](https://www.freecodecamp.org/) which has helped me in this course.
 
-### Issues
+## Issues
 
 Creating the fade on the heror image. I used Linear Gradient which I learnt when I first started learn about CSS with [Free Code Camp](https://www.freecodecamp.org/).
 I had to troubleshoot because my text was also being faded out and I used chat GPT which I found I needed to add a z-index to my css.
