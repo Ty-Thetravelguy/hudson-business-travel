@@ -97,3 +97,12 @@ On the contact us page, I wanted to add a google maps in iframe selector, but ve
 After completing my website, I decided to do it all over again because the css was very messy, and I also wanted to structure the html a bit better. One of the things I wanted to do was ensure the navbar stuck to stop of screen and wasn't past of hero image. But now that i've done that, the nav bar isn't sticking to the top. I aslo want the hamburger menu to be on the right on smaller screens which i'm struggling to figure out.
 
 I ran my HTMl through W3C markup validation serever and recevied an error which was from the button on the home page which I copied from Bootstap. I used Chat GPT to understant what the error meant, and it was adiving that the "a" tag on the home is used for creating links, and it does not use the type attribute for defining its behaviour which I had, type="button". I therefore removed the attribute.
+
+## Deployment
+
+1. Visit [GitHub](https://github.com/).
+2. Navigated to my [Hudson Business Travel Repository](https://github.com/Ty-Thetravelguy/hudson-business-travel-milestone-project-1).
+3. Click settings along the top options bar.
+4. Click pages found on the left under "code and automation".
+5. Under "Branch", I changed it from none to main, and saved.
+6. Refershed the screen and the link was provided at the top of the screen.
