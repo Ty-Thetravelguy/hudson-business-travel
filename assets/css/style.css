@@ -28,7 +28,7 @@ html, body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to right, #ffffff00, #DDD0C8); 
+    background: linear-gradient(to right, #ffffff00 50%, #DDD0C8 100%); 
 }
 
 .hero-img-what-we-do {
