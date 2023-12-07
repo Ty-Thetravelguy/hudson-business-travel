@@ -193,6 +193,26 @@ html, body {
     border-radius: 50%;
 }
 
+/*----------------------------------------------------- Background Colours */
+
+.why-section-bg-color,
+.what-section-bg-color,
+.sustainability-section-bg-color,
+.who-are-we-section-bg-color,
+.contact-us-section-bg-color {
+    background-color: #DDD0C8;
+}
+
+/*----------------------------------------------------- Fonts */
+
+h1, h3, h5 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 /*----------------------------------------------------- Nav Bar */
 
 .navbar-brand {
@@ -225,26 +245,6 @@ html, body {
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: #DDD0C8;
     text-decoration: underline;
-}
-
-/*----------------------------------------------------- Background Colours */
-
-.why-section-bg-color,
-.what-section-bg-color,
-.sustainability-section-bg-color,
-.who-are-we-section-bg-color,
-.contact-us-section-bg-color {
-    background-color: #DDD0C8;
-}
-
-/*----------------------------------------------------- Fonts */
-
-h1, h3, h5 {
-    font-family: 'Bebas Neue', sans-serif;
-}
-
-p {
-    font-family: 'Roboto', sans-serif;
 }
 
 /*----------------------------------------------------- Home */
@@ -369,8 +369,6 @@ p {
     color: #DDD0C8
 }
 
-
-
 /*----------------------------------------------------- What We Do */
 
 .what-text-content-section h1 {
@@ -416,7 +414,6 @@ p {
     padding-bottom: 40px;
 }
 
-
 /*----------------------------------------------------- Sustainability */
 
 .sustainability-section h1 {
@@ -435,7 +432,6 @@ p {
 .sustainability-section {
     padding-bottom: 10px;
 }
-
 
 /*----------------------------------------------------- Who Are We */
 
@@ -486,7 +482,6 @@ p {
 .values-content {
     padding: 10px;
 }
-
 
 /*----------------------------------------------------- Contact Us */
 
@@ -573,7 +568,6 @@ label p {
 }
 
 /*----------------------------------------------------- Media Queries */
-/*---------------- Home ----------------*/
 
 @media (min-width: 769px) {
     .navbar-toggler {
