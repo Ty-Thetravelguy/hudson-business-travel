@@ -675,10 +675,20 @@ label p {
 
 }
 
+@media (min-width:433px) and  (max-width:529px) {
+    .question-section {
+        top: 15%;
+    }
+}
+
 @media (max-width: 425px) {
 
     .hero-img-home {
         height: 50vh;
+    }
+
+    .question-section {
+        top: 10%;
     }
 
     .question-section h1,
@@ -705,6 +715,7 @@ label p {
 
 @media (max-width: 320px) {
     
+
     .contact-hours-info p {
         font-size: 10px;
     }
