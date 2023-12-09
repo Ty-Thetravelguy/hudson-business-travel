@@ -81,7 +81,7 @@ Chat GPT to help troubleshoot and learn why things were behaving in a certain wa
 
 I learnt a few tricks with CSS when I first started practicing coding with [Free Code Camp](https://www.freecodecamp.org/) which has helped me in this course.
 
-## Issues
+## Issues/Bugs
 
 Creating the fade on the heror image. I used Linear Gradient which I learnt when I first started learn about CSS with [Free Code Camp](https://www.freecodecamp.org/).
 I had to troubleshoot because my text was also being faded out and I used chat GPT which I found I needed to add a z-index to my css.
@@ -92,11 +92,11 @@ I had massive issues with creating media queries. I really struggled to the cont
 
 I had issues with the meet the team section and the photos i was adding. I used Chat GPT but still coudln't get it to look how i wanted it to. I intially used the img selector but after not be able to get the positing correct, i moved the imgages to the sytle.css file. I copied what i did for the what we do section and change the border raides so the images were round.
 
-On the contact us page, I wanted to add a google maps in iframe selector, but very quickly released that it didn't work as planed. Are doing some research, i found that i needed an google api which I looked into, created one and added to my page.
+On the contact us page, I wanted to add a google maps in iframe selector, but very quickly released that it didn't work as planed. After doing some research, I found that I needed an google API which I looked into, created one and added to my page.
 
-After completing my website, I decided to do it all over again because the css was very messy, and I also wanted to structure the html a bit better. One of the things I wanted to do was ensure the navbar stuck to stop of screen and wasn't past of hero image. But now that i've done that, the nav bar isn't sticking to the top. I aslo want the hamburger menu to be on the right on smaller screens which i'm struggling to figure out.
+After completing my website, I decided to do it all over again because the css was very messy, and I also wanted to structure the html a bit better. One of the things I wanted to do was ensure the navbar stuck to the top of screen and wasn't past of hero image. But now that i've redone that, the nav bar isn't sticking to the top. I kept using the bootstrap class sticky-top and it wasn't working. I often would leave it, work on something else, and come back to it. But no matter what I did, it would not work. I decided that I needed use tutor assistance and spoke with Sarah. She started working on my issue and sent me a screenshot of my navbar below my hero img, and that is when the penny dropped. What if I use position and fixed instead, looked up fixed in bootstrap and got the correct class name, added it, and it worked!
 
-I ran my HTMl through W3C markup validation serever and recevied an error which was from the button on the home page which I copied from Bootstap. I used Chat GPT to understant what the error meant, and it was adiving that the "a" tag on the home is used for creating links, and it does not use the type attribute for defining its behaviour which I had, type="button". I therefore removed the attribute.
+I ran my HTMl through W3C markup validation server and recevied an error which was from the button on the home page which I copied from Bootstap. I used Chat GPT to understant what the error meant, and it was adiving that the "a" tag on the home is used for creating links, and it does not use the type attribute for defining its behaviour which I had, type="button". I therefore removed the attribute.
 
 ## Deployment
 
