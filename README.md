@@ -81,6 +81,10 @@ Chat GPT to help troubleshoot and learn why things were behaving in a certain wa
 
 I learnt a few tricks with CSS when I first started practicing coding with [Free Code Camp](https://www.freecodecamp.org/) which has helped me in this course.
 
+Fonts from [Google Fonts](https://fonts.google.com/)
+
+Icons from [Font Awesome](https://fontawesome.com/)
+
 ## Issues/Bugs
 
 Creating the fade on the heror image. I used Linear Gradient which I learnt when I first started learn about CSS with [Free Code Camp](https://www.freecodecamp.org/).
@@ -106,3 +110,8 @@ I ran my HTMl through W3C markup validation server and recevied an error which w
 4. Click pages found on the left under "code and automation".
 5. Under "Branch", I changed it from none to main, and saved.
 6. Refershed the screen and the link was provided at the top of the screen.
+
+## Credits
+
+* My mentor Spence
+* Sarah from code Institue Tutor Assistance
