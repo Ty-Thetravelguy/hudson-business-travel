@@ -620,6 +620,10 @@ label p {
         height: 70vh;
     }
 
+    .hero-img-home::before {
+        background: linear-gradient(to right, #ffffff00, #DDD0C8); 
+    }
+
     .hero-img-sustainability,
     .hero-img-what-we-do,
     .hero-img-who-are-we {
