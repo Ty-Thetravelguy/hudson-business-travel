@@ -575,36 +575,19 @@ label p {
 
 /*----------------------------------------------------- Media Queries */
 
-@media (min-width: 769px) {
-    .navbar-toggler {
-        position: relative;
-        font-size: 24px;
-        width: 40px;
-        height: 30px;
-        margin-right: 20px;
-    }
-
-    .hamburger-menu span {
-        position: absolute;
-        top: 4px;
-        left: 4px;
-        right: 4px;
-        width: 30px;
-        height: 20px;
-    }
-}
-
 @media (max-width: 768px) {
  
     .logo-section {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .navbar-toggler {
-        position: relative;
+        position: absolute;
         font-size: 24px;
         width: 40px;
         height: 30px;
+        right: 0px;
+        top: 22px;
     }
 
     .hamburger-menu span {
@@ -687,6 +670,14 @@ label p {
 
 @media (max-width: 425px) {
 
+    .logo-section {
+        font-size: 24px;
+    }
+
+    .navbar-toggler {
+        top: 15px;
+    }
+
     .hero-img-home {
         height: 50vh;
     }
@@ -699,7 +690,7 @@ label p {
     .what-text-content-section h1,
     .sustainability-section h1,
     .meet-the-team h1 {
-        font-size: 37px;
+        font-size: 34px;
     }
 
     .why-section-heading h3,
@@ -718,7 +709,6 @@ label p {
 }
 
 @media (max-width: 320px) {
-    
 
     .contact-hours-info p {
         font-size: 10px;
