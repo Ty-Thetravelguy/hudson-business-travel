@@ -607,6 +607,10 @@ label p {
         background: linear-gradient(to right, #ffffff00, #DDD0C8); 
     }
 
+    .button {
+        padding: 5px 9px;
+    }
+
     .hero-img-sustainability,
     .hero-img-what-we-do,
     .hero-img-who-are-we {
