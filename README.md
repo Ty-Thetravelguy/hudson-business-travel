@@ -1,12 +1,35 @@
 # Hudson Business Travel - Milestone Project 1
 
+## HTML/CSS Essentials - User Sentric, Static Front-End Website
+
 ## Hudson Business Travel
 
 Hudson Business Travel has established itself as a frontrunner in the corporate travel industry, offering bespoke travel solutions tailored to meet the unique demands of professionals and businesses. Expert in navigating the intricacies of business travel, the company specialises in efficiently managing everything from urgent trips to complex travel itineraries, always focusing on client comfort and convenience. Their commitment to customer-centricity ensures that each travel plan is more than a journey; it’s a customised experience designed to align with their client’s specific business and personal needs.
 
 At the core of Hudson Business Travel’s ethos is a relentless drive for innovation. They integrate the latest technology in travel management, providing advanced booking systems and real-time itinerary tracking to ensure clients are always a step ahead. Hudson Business Travel is synonymous with excellence and integrity in the corporate travel sector, offering more than just travel arrangements. They are a committed partner in their clients’ professional journeys, ensuring every trip is smooth, efficient, and perfectly aligned with business objectives.
 
-### Business Needs
+![Mockup](assets/images-readme/mockup%20img.png)
+
+Click [Here](https://ty-thetravelguy.github.io/hudson-business-travel-milestone-project-1/) to view the webpage.
+
+## Table of contents
+
+1. [Business Needs](#business-needs)
+2. [User Needs](#user-needs)
+3. [Design Process](#design-process)
+    1. [Process](#process)
+    2. [Colour Palette](#colour-palette)
+    3. [Wire Frame](#wire-frame)
+        1. [Web Layout](#web-layout)
+        2. [Tablet Layout](#tablet-layout)
+        3. [Phone Layout](#phone-layout)
+4. [Technoligy used](#technoligy-used)
+5. [Issues/Bugs](#issuesbugs)
+6. [Testing](#testing)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
+
+## Business Needs
 
 1. Brand Awareness: In today's digital era, an online presence is crucial for reaching a wider audience. A website increases brand visibility and recognition, making Hudson Business Travel known to potential clients who rely on the Internet for corporate travel solutions. It's essential for expanding the company's reach beyond traditional boundaries.
 2. Professional Image: A website is often the first point of interaction between a company and its potential clients. A well-designed website conveys a sense of professionalism and legitimacy. It reinforces Hudson Business Travel's image as a reliable and established player in the corporate travel sector, which is vital for building trust with prospective clients.
@@ -15,7 +38,7 @@ At the core of Hudson Business Travel’s ethos is a relentless drive for innova
 5. Marketing and Promotion: A website is a powerful marketing tool. It allows Hudson Business Travel to showcase its services and highlight its unique selling points or achievements. In a competitive market, this platform is essential for standing out and effectively communicating the value proposition to potential clients.
 6. Competitive Edge: A strong online presence is no longer just an option but a necessity for staying competitive. A website ensures that Hudson Business Travel keeps up with or stays ahead of competitors, demonstrating its commitment to modern business practices and meeting the expectations of digitally savvy clients.
 
-### User Needs
+## User Needs
 
 1. Understanding of Services Offered: Users require clear, concise information about the services provided by Hudson Business Travel, such as types of travel management services and support provided.
 2. Company Insight: Potential clients and partners look for insights into the company’s ethos, history, and the team’s expertise to gauge reliability and fit.
@@ -101,6 +124,8 @@ On the contact us page, I wanted to add a google maps in iframe selector, but ve
 After completing my website, I decided to do it all over again because the css was very messy, and I also wanted to structure the html a bit better. One of the things I wanted to do was ensure the navbar stuck to the top of screen and wasn't past of hero image. But now that i've redone that, the nav bar isn't sticking to the top. I kept using the bootstrap class sticky-top and it wasn't working. I often would leave it, work on something else, and come back to it. But no matter what I did, it would not work. I decided that I needed use tutor assistance and spoke with Sarah. She started working on my issue and sent me a screenshot of my navbar below my hero img, and that is when the penny dropped. What if I use position and fixed instead, looked up fixed in bootstrap and got the correct class name, added it, and it worked!
 
 I ran my HTMl through W3C markup validation server and recevied an error which was from the button on the home page which I copied from Bootstap. I used Chat GPT to understant what the error meant, and it was adiving that the "a" tag on the home is used for creating links, and it does not use the type attribute for defining its behaviour which I had, type="button". I therefore removed the attribute.
+
+## Testing
 
 ## Deployment
 
