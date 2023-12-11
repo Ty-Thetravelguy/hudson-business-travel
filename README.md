@@ -54,7 +54,7 @@ Click [Here](https://ty-thetravelguy.github.io/hudson-business-travel-milestone-
 
 To effectively meet our business goals and cater to the needs of our users, I have planned a four-page, responsive website design. This ensures optimal viewing and interaction experience across all devices, maintaining aesthetics and functionality regardless of screen size.
 
-*Home Page*: Business Travel’s Home Page is designed for immediate impact and user engagement. It features a top navigation bar for seamless site navigation and a compelling hero image that captures the essence of corporate travel. Prominently displayed on the left side of the image is the bold question, “Looking for a new travel management company?” accompanied by a ‘Contact Us’ button to prompt user action. Below this, the “Why Choose Business Travel” section outlines the company’s unique selling points. The footer, consistent across the website, includes social media links and contact details, offering users multiple ways to connect with the company.
+*Home Page*: Business Travel’s Home Page is designed for immediate impact and user engagement. It features a top navigation bar for seamless site navigation and a compelling hero image that captures the essence of corporate travel. Prominently displayed on the right side of the image is the bold question, “Looking for a new travel management company?” accompanied by a ‘Contact Us’ button to prompt user action. Below this, the “Why Choose Business Travel” section outlines the company’s unique selling points. The footer, consistent across the website, includes social media links and contact details, offering users multiple ways to connect with the company.
 
 *What We Do Page*: This page introduces visitors to the services offered by Business Travel with a header image that sets a professional tone. It includes a detailed section on the company’s services, followed by the “Expertise” area showcasing interactive images. These images, when clicked, reveal more information about specific service areas, enhancing user interaction. The footer, matching the homepage, provides a mix of social media and contact details, ensuring easy access for visitors seeking more information or ways to connect.
 
@@ -65,6 +65,10 @@ To effectively meet our business goals and cater to the needs of our users, I ha
 *Contact Us Page*: Designed for direct user interaction, the ‘Contact Us’ page features a straightforward layout with a header image in line with the site’s theme. Central to this page is a contact form complemented by the company’s address, contact number, and an integrated Google Maps location. The footer, uniform across the site, includes contact details and social media links, providing users with multiple channels to contact Business Travel.
 
 ### Colour Palette
+
+I've selected beige as the primary background colour for the website, taking into account its light and neutral properties. This choice ensures there won't be any conflicting colours with the text, contributing to a clean and harmonious design that enhances readability and the overall user experience.
+
+Following the deicition, I added the colour beige to [My Color Space](https://mycolor.space/) to generate a colour palette for the webpage.
 
 ![Color Palette](assets/images-readme/color-palette.png)
 
@@ -96,17 +100,25 @@ To effectively meet our business goals and cater to the needs of our users, I ha
 
 ## Technoligy used
 
-HTML5 / CSS3
+HTML5 / CSS3.
 
-Bootstrap V5
+Bootstrap V5.
+
+I also used [W3Schools](https://my-learning.w3schools.com/) to search for entries I couldn't remember off the top of my head.
 
 Chat GPT to help troubleshoot and learn why things were behaving in a certain way.
 
 I learnt a few tricks with CSS when I first started practicing coding with [Free Code Camp](https://www.freecodecamp.org/) which has helped me in this course.
 
-Fonts from [Google Fonts](https://fonts.google.com/)
+Fonts from [Google Fonts](https://fonts.google.com/).
 
-Icons from [Font Awesome](https://fontawesome.com/)
+Icons from [Font Awesome](https://fontawesome.com/).
+
+For the Colour Palette I used [My Color Space](https://mycolor.space/).
+
+All images were sorced from [Adobe Stock](https://stock.adobe.com/uk/), and [Shutterstock](https://www.shutterstock.com/).
+
+My mockup design was created on [Techsini](https://techsini.com/multi-mockup/index.php).
 
 ## Issues/Bugs
 
@@ -123,9 +135,19 @@ On the contact us page, I wanted to add a google maps in iframe selector, but ve
 
 After completing my website, I decided to do it all over again because the css was very messy, and I also wanted to structure the html a bit better. One of the things I wanted to do was ensure the navbar stuck to the top of screen and wasn't past of hero image. But now that i've redone that, the nav bar isn't sticking to the top. I kept using the bootstrap class sticky-top and it wasn't working. I often would leave it, work on something else, and come back to it. But no matter what I did, it would not work. I decided that I needed use tutor assistance and spoke with Sarah. She started working on my issue and sent me a screenshot of my navbar below my hero img, and that is when the penny dropped. What if I use position and fixed instead, looked up fixed in bootstrap and got the correct class name, added it, and it worked!
 
-I ran my HTMl through W3C markup validation server and recevied an error which was from the button on the home page which I copied from Bootstap. I used Chat GPT to understant what the error meant, and it was adiving that the "a" tag on the home is used for creating links, and it does not use the type attribute for defining its behaviour which I had, type="button". I therefore removed the attribute.
+Should you wish to view my previous repository, please click [here](https://github.com/Ty-Thetravelguy/business-travel) to view it.
+
+I ran my HTML through W3C markup validation server and recevied an error which was from the button on the home page which I copied from Bootstap. I used Chat GPT to understant what the error meant, and it was adiving that the "a" tag on the home is used for creating links, and it does not use the type attribute for defining its behaviour which I had, type="button". I therefore removed the attribute.
 
 ## Testing
+
+I ran the website through [W3C Markup Validation Service](https://validator.w3.org/). One error was found initially which has been noted under Issues/Bugs.
+
+I ran the website through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). I discovered errors and warnings in the Bootstrap CSS, and similarly, my custom CSS showed warnings due to the buttons having the same background colour as their borders. However, this design choice was intentional to maintain a consistent and seamless aesthetic throughout the website.
+
+I also ran each page through [Lighthouse via Google Develper Tools](https://developer.chrome.com/docs/lighthouse/overview/) aiming to significantly elevate the overall quality of the website. This comprehensive analysis helped identify and address key aspects of performance, accessibility, best practices, and SEO to enhance the site's effectiveness and user experience.
+
+I conducted extensive cross-browser testing, meticulously reviewing the website in various browsers. During this process, I systematically clicked on every link on each page to verify their functionality and ensure a consistent, error-free user experience across different platforms.
 
 ## Deployment
 
