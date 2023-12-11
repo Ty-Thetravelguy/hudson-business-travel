@@ -160,5 +160,9 @@ I conducted extensive cross-browser testing, meticulously reviewing the website 
 
 ## Credits
 
-* My mentor Spence
-* Sarah from code Institue Tutor Assistance
+* My mentor Spencer Barriball.
+  * Spencer remindered me to use lighthouse, explained my pictures were too big at first, and we disucssed that I should remove the iframe, but I chose to keep it but hide it on smaller devises.
+* Sarah from code Institue Tutor Assistance.
+  * I chatted to Sarah when trying to fix my navbar.
+* My collage colleauge Lewis Beaven.
+  * Help me with the website to use to generate the mockup image.
