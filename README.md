@@ -1,6 +1,6 @@
 # Hudson Business Travel - Milestone Project 1
 
-## HTML/CSS Essentials - User Sentric, Static Front-End Website
+## HTML/CSS Essentials - User Sentric, Centric Front-End Website
 
 ## Hudson Business Travel
 
@@ -81,7 +81,7 @@ To effectively meet our business goals and cater to the needs of our users, I ha
 
 I've selected beige as the primary background colour for the website, taking into account its light and neutral properties. This choice ensures there won't be any conflicting colours with the text, contributing to a clean and harmonious design that enhances readability and the overall user experience.
 
-Following the deicition, I added the colour beige to [My Color Space](https://mycolor.space/) to generate a colour palette for the webpage.
+Following the decision, I added the colour beige to [My Color Space](https://mycolor.space/) to generate a colour palette for the webpage.
 
 ![Color Palette](assets/images-readme/color-palette.png)
 
@@ -228,3 +228,5 @@ If you would like to work on my project further you can clone mine or create you
   * I chatted to Sarah when trying to fix my navbar.
 * My collage colleauge Lewis Beaven.
   * Help me with the website to use to generate the mockup image.
+* I copied the code for my navigation bar from Bootstrap directly and ameneded accordenly for my project. I also used many of bootstrap classes.
+* In the footer, I copied the social icons from my previous mini project, including the styling, however the colour of each icon I reserched myself to add to my project.
