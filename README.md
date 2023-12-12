@@ -15,18 +15,31 @@ Click [Here](https://ty-thetravelguy.github.io/hudson-business-travel-milestone-
 ## Table of contents
 
 1. [Business Needs](#business-needs)
+
 2. [User Needs](#user-needs)
+
 3. [Design Process](#design-process)
+
     1. [Process](#process)
+
     2. [Colour Palette](#colour-palette)
+
     3. [Wire Frame](#wire-frame)
+
         1. [Web Layout](#web-layout)
+
         2. [Tablet Layout](#tablet-layout)
+
         3. [Phone Layout](#phone-layout)
-4. [Technoligy used](#technoligy-used)
-5. [Issues/Bugs](#issuesbugs)
-6. [Testing](#testing)
+
+4. [Technoligy used](#technology-used)
+
+5. [Testing](#testing)
+
+6. [Issues/Bugs](#issuesbugs)
+
 7. [Deployment](#deployment)
+
 8. [Credits](#credits)
 
 ## Business Needs
@@ -74,7 +87,7 @@ Following the deicition, I added the colour beige to [My Color Space](https://my
 
 ### Wire Frame
 
-#### Web layout
+#### Web Layout
 
 ![index.html](assets/images-readme/wire-frame-web-index.html.png)
 ![what-we-do.html](assets/images-readme/wire-frame-web-what-we-do.html.png)
@@ -82,7 +95,7 @@ Following the deicition, I added the colour beige to [My Color Space](https://my
 ![who-are-we.html](assets/images-readme/wire-frame-web-who-are-we.html.png)
 ![contact-us.html](assets/images-readme/wire-frame-web-contact-us.html.png)
 
-### Tablet layout
+### Tablet Layout
 
 ![index.html](assets/images-readme/wire-frame-tablet-index.html-v2.png)
 ![what-we-do.html](assets/images-readme/wire-frame-tablet-what-we-do.html-v2.png)
@@ -90,7 +103,7 @@ Following the deicition, I added the colour beige to [My Color Space](https://my
 ![who-are-we.html](assets/images-readme/wire-frame-tablet-who-we-are.html-v2.png)
 ![contact-us.html](assets/images-readme/wire-frame-tablet-contact-us.html-v2.png)
 
-### Phone layout
+### Phone Layout
 
 ![index.html](assets/images-readme/wire-frame-phone-index.html-v2.png)
 ![what-we-do.html](assets/images-readme/wire-frame-phone-what-we-do.html-v2.png)
@@ -98,15 +111,13 @@ Following the deicition, I added the colour beige to [My Color Space](https://my
 ![who-are-we.html](assets/images-readme/wire-frame-phone-who-we-are.html-v2.png)
 ![contact-us.html](assets/images-readme/wire-frame-phone-contact-us.html-v2.png)
 
-## Technoligy used
+## Technology Used
 
 HTML5 / CSS3.
 
 Bootstrap V5.
 
-I also used [W3Schools](https://my-learning.w3schools.com/) to search for entries I couldn't remember off the top of my head.
-
-Chat GPT to help troubleshoot and learn why things were behaving in a certain way.
+I also used [W3Schools](https://my-learning.w3schools.com/) to search for html and css syntax which I couldn't remember off the top of my head.
 
 I learnt a few tricks with CSS when I first started practicing coding with [Free Code Camp](https://www.freecodecamp.org/) which has helped me in this course.
 
@@ -118,7 +129,47 @@ For the Colour Palette I used [My Color Space](https://mycolor.space/).
 
 All images were sorced from [Adobe Stock](https://stock.adobe.com/uk/), and [Shutterstock](https://www.shutterstock.com/).
 
+I created my Wireframe using Balsamiq Wireframes, which was downloaded onto my computer.
+
 My mockup design was created on [Techsini](https://techsini.com/multi-mockup/index.php).
+
+Chat GPT to help troubleshoot and learn why things were behaving in a certain way.
+
+## Testing
+
+I ran the website through [W3C Markup Validation Service](https://validator.w3.org/). One error was found initially which has been noted under Issues/Bugs.
+
+I ran the website through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). I discovered errors and warnings in the Bootstrap CSS, and similarly, my custom CSS showed warnings due to the buttons having the same background colour as their borders. However, this design choice was intentional to maintain a consistent and seamless aesthetic throughout the website.
+
+I also ran each page through [Lighthouse via Google Develper Tools](https://developer.chrome.com/docs/lighthouse/overview/) aiming to significantly elevate the overall quality of the website. This comprehensive analysis helped identify and address key aspects of performance, accessibility, best practices, and SEO to enhance the site's effectiveness and user experience.
+
+### Home Page
+
+![index.html](assets/images-readme/lh-index.png)
+
+### What We Do Page
+
+![what-we-do](assets/images-readme/lh-what-we-do.png)
+
+### Sustainability Page
+
+![sustainability](assets/images-readme/lh-sustainability.png)
+
+### Who Are We Page
+
+![who-are-we](assets/images-readme/lh-who-are-we.png)
+
+### Contact Us Page
+
+![contact-us](assets/images-readme/lh-contact-us.png)
+
+I also conducted extensive cross-browser testing, meticulously reviewing the website in various browsers. During this process, I systematically clicked on every link on each page to verify their functionality and ensure a consistent, error-free user experience across different platforms.
+
+1. Google Chrome
+2. Microsoft Edge
+3. Opera
+4. Mozilla Firefox
+5. DuckDuckGo
 
 ## Issues/Bugs
 
@@ -139,24 +190,35 @@ Should you wish to view my previous repository, please click [here](https://gith
 
 I ran my HTML through W3C markup validation server and recevied an error which was from the button on the home page which I copied from Bootstap. I used Chat GPT to understant what the error meant, and it was adiving that the "a" tag on the home is used for creating links, and it does not use the type attribute for defining its behaviour which I had, type="button". I therefore removed the attribute.
 
-## Testing
+I ran my CSS through W3C CSS Validation Service and found many error in Bootstrap CSS, however my custom CSS showed warnings due to the buttons having the same background colour as their borders. However, this design choice was intentional to maintain a consistent and seamless aesthetic throughout the website.
 
-I ran the website through [W3C Markup Validation Service](https://validator.w3.org/). One error was found initially which has been noted under Issues/Bugs.
-
-I ran the website through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). I discovered errors and warnings in the Bootstrap CSS, and similarly, my custom CSS showed warnings due to the buttons having the same background colour as their borders. However, this design choice was intentional to maintain a consistent and seamless aesthetic throughout the website.
-
-I also ran each page through [Lighthouse via Google Develper Tools](https://developer.chrome.com/docs/lighthouse/overview/) aiming to significantly elevate the overall quality of the website. This comprehensive analysis helped identify and address key aspects of performance, accessibility, best practices, and SEO to enhance the site's effectiveness and user experience.
-
-I conducted extensive cross-browser testing, meticulously reviewing the website in various browsers. During this process, I systematically clicked on every link on each page to verify their functionality and ensure a consistent, error-free user experience across different platforms.
+Lighthouse Score on contact us page indicated that find us here link wasn't adequate. I therefore changed it to say Directions to Hudsone Business Travel, and it then passed.
 
 ## Deployment
 
-1. Visit [GitHub](https://github.com/).
+### Deploying my project
+
+1. I went onto [GitHub](https://github.com/).
 2. Navigated to my [Hudson Business Travel Repository](https://github.com/Ty-Thetravelguy/hudson-business-travel-milestone-project-1).
-3. Click settings along the top options bar.
-4. Click pages found on the left under "code and automation".
+3. Clicked settings along the top options bar.
+4. Clicked pages found on the left under "code and automation".
 5. Under "Branch", I changed it from none to main, and saved.
 6. Refershed the screen and the link was provided at the top of the screen.
+
+### Cloning my project
+
+If you would like to work on my project further you can clone mine or create your own which is called forking.
+
+#### Cloning
+
+1. Scroll to the top of my repository and click the "Code" button and choose "Clone" with HTTPS or SSH.
+2. You'll get a URL which can use to clone the repository.
+
+#### Creating your own (Forking)
+
+1. Instead of cloning, you can directly fork my repository to create a copy under your GitHub account.
+2. To do this, you simply click the "Fork" button on the top right of my repository's GitHub page.
+3. This creates a copy of my repository in your account, which can then clone, modify, and work with as your own repository.
 
 ## Credits
 
