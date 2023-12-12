@@ -473,6 +473,15 @@ p {
     color: #DDD0C8;
 }
 
+.staff-names h5 {
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.staff-names p {
+    margin-bottom: 12px;
+}
+
 .staff-member {
     margin: 3rem;
 }
