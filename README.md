@@ -54,12 +54,11 @@ Click [Here](https://ty-thetravelguy.github.io/hudson-business-travel-milestone-
 ## User Needs
 
 1. Understanding of Services Offered: Users require clear, concise information about the services provided by Hudson Business Travel, such as types of travel management services and support provided.
-2. Company Insight: Potential clients and partners look for insights into the company’s ethos, history, and the team’s expertise to gauge reliability and fit.
+2. Company Insight: Potential clients and partners look for insights into the company’s ethos and the team’s expertise to gauge reliability and fit.
 3. Contact Information: Easy access to contact information is crucial for users considering Hudson Business Travel’s services.
-4. Testimonials and Case Studies: Users often seek proof of excellence and reliability through client testimonials, case studies, or success stories.
-5. Simple Navigation: A user-friendly website design with simple navigation is essential, allowing users to quickly find the information they need.
-6. Corporate Identity and Branding: Users expect the website to reflect the corporate identity of Hudson Business Travel, with professional design and branding that aligns with the company’s image and market position.
-7. Sustainability Commitment: Hudson Business Travel wants to showcase its commitment to eco-friendly travel, aligning with industry trends towards environmental responsibility and positioning itself as a progressive, eco-conscious leader in the sector.
+4. Simple Navigation: A user-friendly website design with simple navigation is essential, allowing users to quickly find the information they need.
+5. Corporate Identity and Branding: Users expect the website to reflect the corporate identity of Hudson Business Travel, with professional design and branding that aligns with the company’s image and market position.
+6. Sustainability Commitment: Hudson Business Travel wants to showcase its commitment to eco-friendly travel, aligning with industry trends towards environmental responsibility and positioning itself as a progressive, eco-conscious leader in the sector.
 
 ## Design Process
 
@@ -127,11 +126,11 @@ Icons from [Font Awesome](https://fontawesome.com/).
 
 For the Colour Palette I used [My Color Space](https://mycolor.space/).
 
-All images were sorced from [Adobe Stock](https://stock.adobe.com/uk/), and [Shutterstock](https://www.shutterstock.com/).
+All images were sourced from [Adobe Stock](https://stock.adobe.com/uk/), and [Shutterstock](https://www.shutterstock.com/).
 
 I created my Wireframe using Balsamiq Wireframes, which was downloaded onto my computer.
 
-My mockup design was created on [Techsini](https://techsini.com/multi-mockup/index.php).
+My mock-up design was created on [Techsini](https://techsini.com/multi-mockup/index.php).
 
 Chat GPT to help troubleshoot and learn why things were behaving in a certain way.
 
@@ -141,7 +140,7 @@ I ran the website through [W3C Markup Validation Service](https://validator.w3.o
 
 I ran the website through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). I discovered errors and warnings in the Bootstrap CSS, and similarly, my custom CSS showed warnings due to the buttons having the same background colour as their borders. However, this design choice was intentional to maintain a consistent and seamless aesthetic throughout the website.
 
-I also ran each page through [Lighthouse via Google Develper Tools](https://developer.chrome.com/docs/lighthouse/overview/) aiming to significantly elevate the overall quality of the website. This comprehensive analysis helped identify and address key aspects of performance, accessibility, best practices, and SEO to enhance the site's effectiveness and user experience.
+I also ran each page through [Lighthouse via Google Developer Tools](https://developer.chrome.com/docs/lighthouse/overview/) aiming to significantly elevate the overall quality of the website. This comprehensive analysis helped identify and address key aspects of performance, accessibility, best practices, and SEO to enhance the site's effectiveness and user experience.
 
 ### Home Page
 
@@ -173,26 +172,26 @@ I also conducted extensive cross-browser testing, meticulously reviewing the web
 
 ## Issues/Bugs
 
-Creating the fade on the heror image. I used Linear Gradient which I learnt when I first started learn about CSS with [Free Code Camp](https://www.freecodecamp.org/).
+Creating the fade on the hero image. I used Linear Gradient which I learnt when I first started learn about CSS with [Free Code Camp](https://www.freecodecamp.org/).
 I had to troubleshoot because my text was also being faded out and I used chat GPT which I found I needed to add a z-index to my css.
 
-After adding the nav menu, the image moved down but the fade didn't. I used google dev tool and played with margins and padding but it didn't work. Asked chat GPT and learned that I needed to adjust the .hero-img::before top proprty to aline again.
+After adding the nav menu, the image moved down but the fade didn't. I used google dev tool and played with margins and padding but it didn't work. Asked chat GPT and learned that I needed to adjust the .hero-img::before top property to align again.
 
-I had massive issues with creating media queries. I really struggled to the content to look good on smaller screens, in particual with the question-section and question-button. The position on smaller screans were good on one size, and not great as it increased, or viser versa. I used Chat GPT a lot to help me troubleshoot, which I don't think help huge amount, until I decided to change the html and wrap the question-section and question-button in a div. Only then, the position work better.
+I had massive issues with creating media queries. I really struggled to the content to look good on smaller screens, in particular with the question-section and question-button. The position on smaller screens were good on one size, and not great as it increased, or vice versa. I used Chat GPT a lot to help me troubleshoot, which I don't think help huge amount, until I decided to change the html and wrap the question-section and question-button in a div. Only then, the position work better.
 
-I had issues with the meet the team section and the photos i was adding. I used Chat GPT but still coudln't get it to look how i wanted it to. I intially used the img selector but after not be able to get the positing correct, i moved the imgages to the sytle.css file. I copied what i did for the what we do section and change the border raides so the images were round.
+I had issues with the meet the team section and the photos i was adding. I used Chat GPT but still couldn’t get it to look how I wanted it to. I initially used the img selector but after not be able to get the positing correct, I moved the images to the sytle.css file. I copied what i did for the what we do section and change the border raiders so the images were round.
 
 On the contact us page, I wanted to add a google maps in iframe selector, but very quickly released that it didn't work as planed. After doing some research, I found that I needed an google API which I looked into, created one and added to my page.
 
-After completing my website, I decided to do it all over again because the css was very messy, and I also wanted to structure the html a bit better. One of the things I wanted to do was ensure the navbar stuck to the top of screen and wasn't past of hero image. But now that i've redone that, the nav bar isn't sticking to the top. I kept using the bootstrap class sticky-top and it wasn't working. I often would leave it, work on something else, and come back to it. But no matter what I did, it would not work. I decided that I needed use tutor assistance and spoke with Sarah. She started working on my issue and sent me a screenshot of my navbar below my hero img, and that is when the penny dropped. What if I use position and fixed instead, looked up fixed in bootstrap and got the correct class name, added it, and it worked!
+After completing my website, I decided to do it all over again because the css was very messy, and I also wanted to structure the html a bit better. One of the things I wanted to do was ensure the navbar stuck to the top of screen and wasn't past of hero image. But now that I’ve redone that, the nav bar isn't sticking to the top. I kept using the bootstrap class sticky-top and it wasn't working. I often would leave it, work on something else, and come back to it. But no matter what I did, it would not work. I decided that I needed use tutor assistance and spoke with Sarah. She started working on my issue and sent me a screenshot of my navbar below my hero img, and that is when the penny dropped. What if I use position and fixed instead, looked up fixed in bootstrap and got the correct class name, added it, and it worked!
 
-Should you wish to view my previous repository, please click [here](https://github.com/Ty-Thetravelguy/business-travel) to view it.
+Should you wish to view my previous repository, please visit my [GitHub page](https://github.com/Ty-Thetravelguy/business-travel) to view it.
 
-I ran my HTML through W3C markup validation server and recevied an error which was from the button on the home page which I copied from Bootstap. I used Chat GPT to understant what the error meant, and it was adiving that the "a" tag on the home is used for creating links, and it does not use the type attribute for defining its behaviour which I had, type="button". I therefore removed the attribute.
+I ran my HTML through W3C markup validation server and received an error which was from the button on the home page which I copied from Bootstrap. I used Chat GPT to understand what the error meant, and it was advising that the "a" tag on the home is used for creating links, and it does not use the type attribute for defining its behaviour which I had, type="button". I therefore removed the attribute.
 
-I ran my CSS through W3C CSS Validation Service and found many error in Bootstrap CSS, however my custom CSS showed warnings due to the buttons having the same background colour as their borders. However, this design choice was intentional to maintain a consistent and seamless aesthetic throughout the website.
+I ran my CSS through W3C CSS Validation Service and found many errors in Bootstrap CSS, however my custom CSS showed warnings due to the buttons having the same background colour as their borders. However, this design choice was intentional to maintain a consistent and seamless aesthetic throughout the website. There was also warning stating "-moz-transition is a vendor extension", "-webkit-transition is a vendor extension" & "-o-transition is a vendor extension". I used Chat GPT to understand what the warning was, and it was advised the following: "Nowadays, with the transition property being a part of standard CSS, the use of -moz-transition is largely redundant and might even be considered outdated. It's advisable to use the standard transition property in your CSS, but if you need to support older versions of Firefox, you might still see -moz-transition in use."
 
-Lighthouse Score on contact us page indicated that find us here link wasn't adequate. I therefore changed it to say Directions to Hudsone Business Travel, and it then passed.
+Lighthouse Score on contact us page indicated that find us here link wasn't adequate. I therefore changed it to say Directions to Hudson Business Travel, and it then passed.
 
 ## Deployment
 
@@ -203,11 +202,11 @@ Lighthouse Score on contact us page indicated that find us here link wasn't adeq
 3. Clicked settings along the top options bar.
 4. Clicked pages found on the left under "code and automation".
 5. Under "Branch", I changed it from none to main, and saved.
-6. Refershed the screen and the link was provided at the top of the screen.
+6. Refreshed the screen and the link was provided at the top of the screen.
 
 ### Cloning my project
 
-If you would like to work on my project further you can clone mine or create your own which is called forking.
+If you would like to work on my project further, you can clone mine or create your own which is called forking.
 
 #### Cloning
 
@@ -220,13 +219,47 @@ If you would like to work on my project further you can clone mine or create you
 2. To do this, you simply click the "Fork" button on the top right of my repository's GitHub page.
 3. This creates a copy of my repository in your account, which can then clone, modify, and work with as your own repository.
 
+## Screenshots
+
+### Corporate Identity
+
+![Corporate Identity](assets/images-readme/ss-corporate-identity.png)
+
+### Navigation Bar
+
+![Navigation Bar](assets/images-readme/ss-navbar.png)
+
+### What We Do
+
+![What We Do](assets/images-readme/ss-what-we-do.png)
+
+### Sustainability
+
+![Sustainability](assets/images-readme/ss-sustainability.png)
+
+### Meet the Team
+
+![Meet the Team](assets/images-readme/ss-meet-the-team.png)
+
+### Vision and Values
+
+![Vision and Values](assets/images-readme/ss-vision&values.png)
+
+### Contact information
+
+![Contact inforamtion](assets/images-readme/ss-contact-us.png)
+
+### Contact information in the Footer
+
+![Contact inforamtion in footer](assets/images-readme/ss-footer-contact.png)
+
 ## Credits
 
 * My mentor Spencer Barriball.
-  * Spencer remindered me to use lighthouse, explained my pictures were too big at first, and we disucssed that I should remove the iframe, but I chose to keep it but hide it on smaller devises.
-* Sarah from code Institue Tutor Assistance.
+  * Spencer reminded me to use lighthouse, explained my pictures were too big at first, and we discussed that I should remove the iframe, but I chose to keep it but hide it on smaller devises.
+* Sarah from code Institute Tutor Assistance.
   * I chatted to Sarah when trying to fix my navbar.
-* My collage colleauge Lewis Beaven.
-  * Help me with the website to use to generate the mockup image.
-* I copied the code for my navigation bar from Bootstrap directly and ameneded accordenly for my project. I also used many of bootstrap classes.
-* In the footer, I copied the social icons from my previous mini project, including the styling, however the colour of each icon I reserched myself to add to my project.
+* My collage colleague Lewis Beaven.
+  * Help me with the website to use to generate the mock-up image.
+* I copied the code for my navigation bar from Bootstrap directly and amended accordingly for my project. I also used many of bootstrap classes.
+* In the footer, I copied the social icons from my previous mini project, including the styling, however the colour of each icon I researched myself to add to my project.
