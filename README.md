@@ -136,6 +136,10 @@ I created my Wireframe using Balsamiq Wireframes, which was downloaded onto my c
 
 My mock-up design was created on [Techsini](https://techsini.com/multi-mockup/index.php).
 
+The AI generated video was created on [AI Studio](https://v3.aistudios.com/).
+
+I loaded the video up to [YouTube](https://youtu.be/seiScROYIbY) to save space as it was over 60mb.
+
 Chat GPT to help troubleshoot and learn why things were behaving in a certain way.
 
 ## Testing
