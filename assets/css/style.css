@@ -480,6 +480,7 @@ p {
 .values-content p {
     font-size: 18px;
     color: #2f4858;
+    text-wrap: balance;
 }
 
 .vision-section h3,
