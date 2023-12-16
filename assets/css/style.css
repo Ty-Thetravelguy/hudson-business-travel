@@ -210,7 +210,7 @@ html, body {
 
 /*----------------------------------------------------- Fonts */
 
-h1, h3, h5 {
+h1, h2, h3, h5 {
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -299,12 +299,32 @@ p {
 
 .why-section p {
     font-size: 18px;
+    text-wrap: balance;
 }
 
 .why-section-context {
     color: #2f4858;
-    padding: 40px 20px 40px 20px;
+    padding: 40px 20px 10px 20px;
 }
+
+.customers h2 {
+    padding-top: 2rem;
+    font-size: 60px;
+    color: #2f4858;
+    text-wrap: balance;
+}
+
+.video-background {
+    background-color: #827686;
+    border-radius: 50% 0 50% 0;
+    padding: 5%;
+}
+
+.video {
+    padding-bottom: 3rem;
+}
+
+
 
 /*----------------------------------------------------- Footer */
 
@@ -392,6 +412,7 @@ p {
 .expertise-section p {
     font-size: 18px;
     color: #2f4858;
+    text-wrap: balance;
 }
 
 .what-text-content-section p {
@@ -450,6 +471,7 @@ p {
     padding: 40px 0 20px 0;
     color: #2f4858;
     letter-spacing: 1px;
+    text-wrap: balance;
 }
 
 .meet-the-team p,
@@ -642,6 +664,10 @@ label p {
         font-size: 50px;
     }
 
+    .customers h2 {
+        font-size: 40px;
+    }
+
     .why-section-heading h3,
     .expertise-section h3,
     .vision-section h3,
@@ -678,6 +704,22 @@ label p {
     }
 
 }
+/* --- This media query I sourced from ChatGPT---- */
+@media screen and (max-width: 700px) {
+    .col-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    .video-background {
+      padding: 15px; 
+    }
+  
+    .ratio {
+      height: auto; 
+    }
+  }
+  
 
 @media (min-width:433px) and  (max-width:529px) {
     .question-section {
@@ -714,6 +756,10 @@ label p {
         font-size: 34px;
     }
 
+    .customers h2 {
+        font-size: 30px;
+    }
+
     .why-section-heading h3,
     .expertise-section h3,
     .vision-section h3,
@@ -725,6 +771,10 @@ label p {
     .why-section h5 {
         font-size: 23px;
         letter-spacing: 0;
+    }
+
+    .why-section-context {
+        padding-bottom: 10px;
     }
 
 }
@@ -742,4 +792,6 @@ label p {
     .social-links {
         padding-right: 0;
     }
+
+   
 }
