@@ -308,6 +308,10 @@ p {
     padding: 10px 20px 10px 20px;
 }
 
+.carousel-item {
+    min-height: 20vh;
+  }
+
 .customers h2 {
     padding-top: 2rem;
     font-size: 60px;
