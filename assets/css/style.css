@@ -290,6 +290,7 @@ p {
 .why-section-heading h3 {
     font-size: 70px;
     letter-spacing: 1px;
+    text-wrap: balance;
 }
 
 .why-section h5 {
