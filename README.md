@@ -8,6 +8,8 @@ Hudson Business Travel has established itself as a frontrunner in the corporate 
 
 At the core of Hudson Business Travel’s ethos is a relentless drive for innovation. They integrate the latest technology in travel management, providing advanced booking systems and real-time itinerary tracking to ensure clients are always a step ahead. Hudson Business Travel is synonymous with excellence and integrity in the corporate travel sector, offering more than just travel arrangements. They are a committed partner in their clients’ professional journeys, ensuring every trip is smooth, efficient, and perfectly aligned with business objectives.
 
+*Please note that Hudson Business Travel is a fictional entity, created specifically for my Milestone Project 1.*
+
 ![Mockup](assets/images-readme/mockup%20img.png)
 
 Click [Here](https://ty-thetravelguy.github.io/hudson-business-travel-milestone-project-1/) to view the webpage.
@@ -67,6 +69,8 @@ Click [Here](https://ty-thetravelguy.github.io/hudson-business-travel-milestone-
 To effectively meet our business goals and cater to the needs of our users, I have planned a four-page, responsive website design. This ensures optimal viewing and interaction experience across all devices, maintaining aesthetics and functionality regardless of screen size.
 
 *Home Page*: Business Travel’s Home Page is designed for immediate impact and user engagement. It features a top navigation bar for seamless site navigation and a compelling hero image that captures the essence of corporate travel. Prominently displayed on the right side of the image is the bold question, “Looking for a new travel management company?” accompanied by a ‘Contact Us’ button to prompt user action. Below this, the “Why Choose Business Travel” section outlines the company’s unique selling points. The footer, consistent across the website, includes social media links and contact details, offering users multiple ways to connect with the company.
+
+I decided to add a video to my project after I completed everything because they can significantly enhance user engagement and convey your message more effectively. Videos are often more engaging and memorable than text or static images. Please note the video is AI generated which I loaded into YouTube.
 
 *What We Do Page*: This page introduces visitors to the services offered by Business Travel with a header image that sets a professional tone. It includes a detailed section on the company’s services, followed by the “Expertise” area showcasing interactive images. These images, when clicked, reveal more information about specific service areas, enhancing user interaction. The footer, matching the homepage, provides a mix of social media and contact details, ensuring easy access for visitors seeking more information or ways to connect.
 
@@ -193,6 +197,8 @@ I ran my CSS through W3C CSS Validation Service and found many errors in Bootstr
 
 Lighthouse Score on contact us page indicated that find us here link wasn't adequate. I therefore changed it to say Directions to Hudson Business Travel, and it then passed.
 
+I decided to add a vidoe after completing the project and the standard muted and autoplay didn't work. I asked chatGPT which explained that because its a YouTube video, the autoplay and muted needs to be added to the URL.
+
 ## Deployment
 
 ### Deploying my project
@@ -232,6 +238,10 @@ If you would like to work on my project further, you can clone mine or create yo
 ### What We Do
 
 ![What We Do](assets/images-readme/ss-what-we-do.png)
+
+### Customer Video
+
+![Video](assets/images-readme/ss-video.png)
 
 ### Sustainability
 
