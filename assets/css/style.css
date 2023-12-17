@@ -287,7 +287,7 @@ p {
     padding-top: 40px;
 }
 
-.why-section-heading h3 {
+.why-section-heading h2 {
     font-size: 70px;
     letter-spacing: 1px;
     text-wrap: balance;
@@ -308,11 +308,12 @@ p {
     padding: 10px 20px 10px 20px;
 }
 
-.carousel-item {
-    min-height: 25vh;
+#why-choose-carousel .carousel-item {
+    min-height: 30vh;
   }
 
-.customers h2 {
+.customers h3,
+.partner-logo-section h3 {
     padding-top: 2rem;
     font-size: 60px;
     color: #2f4858;
@@ -455,9 +456,22 @@ p {
     padding-top: 10px;
 }
 
+.expertise-img-bg-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 290px;
+    width: 290px;    
+    background-color: #827686;
+    border-radius: 50% 0 50% 0;
+    padding: 5%;
+    margin: 10px;
+}
+
 .expertise-section-img {
     padding-bottom: 40px;
 }
+
 
 /*----------------------------------------------------- Sustainability */
 
@@ -630,6 +644,11 @@ label p {
 /*----------------------------------------------------- Media Queries */
 
 @media (max-width: 1024px) {
+
+    /* #why-choose-carousel .carousel-item {
+        min-height: 35vh;
+      } */
+
     .logo img {
         height: 50px;
         display: block; 
@@ -680,7 +699,7 @@ label p {
     }
 
     .hero-img-contact-us {
-        height: 25vh;
+        height: 30vh;
     }
 
     .question-section h1,
@@ -691,11 +710,12 @@ label p {
         font-size: 50px;
     }
 
-    .customers h2 {
+    .customers h3,
+    .partner-logo-section h3 {
         font-size: 40px;
     }
 
-    .why-section-heading h3,
+    .why-section-heading h2,
     .expertise-section h3,
     .vision-section h3,
     .values-section h3 {
@@ -730,8 +750,12 @@ label p {
         padding-left: 20px;
     }
 
+    #why-choose-carousel .carousel-item {
+        min-height: 35vh;
+      }
+
     .logo img {
-        height: 60px;
+        height: 50px;
         display: block; 
         margin: auto;
     }
@@ -764,6 +788,12 @@ label p {
     }
 }
 
+@media (min-width:426px) and  (max-width:767px) {
+    #why-choose-carousel .carousel-item {
+        min-height: 50vh;
+      }
+}
+
 @media (max-width: 425px) {
 
     .logo-section {
@@ -793,11 +823,16 @@ label p {
         font-size: 34px;
     }
 
-    .customers h2 {
+    .customers h3,
+    .partner-logo-section h3 {
         font-size: 30px;
     }
 
-    .why-section-heading h3,
+    .partner-logo-section h3{
+        padding-top: 0;
+    }
+
+    .why-section-heading h2,
     .expertise-section h3,
     .vision-section h3,
     .values-section h3 {
@@ -814,6 +849,15 @@ label p {
         padding-bottom: 10px;
     }
 
+    #why-choose-carousel .carousel-item {
+        min-height: 60vh;
+      }
+
+    .logo img {
+        height: 40px;
+        display: block; 
+        margin: auto;
+    }
 
 }
 
@@ -831,8 +875,12 @@ label p {
         padding-right: 0;
     }
 
+    #why-choose-carousel .carousel-item {
+        min-height: 65vh;
+      }
+
     .logo img {
-        height: 40px;
+        height: 30px;
         display: block; 
         margin: auto;
     }
