@@ -309,7 +309,7 @@ p {
 }
 
 .carousel-item {
-    min-height: 20vh;
+    min-height: 25vh;
   }
 
 .customers h2 {
@@ -329,6 +329,15 @@ p {
     padding-bottom: 3rem;
 }
 
+.logo img {
+    height: 80px;
+    display: block; 
+    margin: auto;
+}
+
+.logo {
+    padding: 3rem 0 3rem 0;
+}
 
 
 /*----------------------------------------------------- Footer */
@@ -620,6 +629,18 @@ label p {
 
 /*----------------------------------------------------- Media Queries */
 
+@media (max-width: 1024px) {
+    .logo img {
+        height: 50px;
+        display: block; 
+        margin: auto;
+    }
+
+    .logo {
+        padding: 1rem 0 1rem 0;
+    }
+}
+
 @media (max-width: 768px) {
  
     .logo-section {
@@ -709,6 +730,16 @@ label p {
         padding-left: 20px;
     }
 
+    .logo img {
+        height: 60px;
+        display: block; 
+        margin: auto;
+    }
+
+    .logo {
+        padding: 1rem 0 1rem 0;
+    }
+
 }
 /* --- This media query I sourced from ChatGPT---- */
 @media screen and (max-width: 700px) {
@@ -783,6 +814,7 @@ label p {
         padding-bottom: 10px;
     }
 
+
 }
 
 @media (max-width: 320px) {
@@ -799,5 +831,10 @@ label p {
         padding-right: 0;
     }
 
-   
+    .logo img {
+        height: 40px;
+        display: block; 
+        margin: auto;
+    }
+
 }
