@@ -140,6 +140,8 @@ The AI generated video was created on [AI Studio](https://v3.aistudios.com/).
 
 I loaded the video up to [YouTube](https://youtu.be/seiScROYIbY) to save space as it was over 60mb.
 
+I used [Favicon.io](https://favicon.io/) to create my Favicon.
+
 Chat GPT to help troubleshoot and learn why things were behaving in a certain way.
 
 ## Testing
