@@ -447,6 +447,8 @@ p {
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
     text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .expertise-text h5 {
