@@ -72,7 +72,7 @@ html, body {
     margin-top: 60px;
 }
 
-.corp-travel {
+.corp-travel-img {
     position: relative;
     background: url('../images/corporate-travel-small.jpg');
     background-position: center;
@@ -82,7 +82,7 @@ html, body {
     height: 250px;
 }
 
-.private-jet-travel {
+.private-jet-travel-img {
     position: relative;
     background: url('../images/private-jet-small.jpg');
     background-position: left;
@@ -92,7 +92,7 @@ html, body {
     height: 250px;
 }
 
-.marine-travel {
+.marine-travel-img {
     position: relative;
     background: url('../images/marine-travel-small.jpg');
     background-position: right;
@@ -102,7 +102,7 @@ html, body {
     height: 250px;
 }
 
-.group-travel {
+.group-travel-img {
     position: relative;
     background: url('../images/groups-small.jpg');
     background-position: left;
@@ -112,7 +112,7 @@ html, body {
     height: 250px;
 }
 
-.meeting-room {
+.meeting-room-img {
     position: relative;
     background: url('../images/meetings-small.jpg');
     background-position: center;
@@ -122,7 +122,7 @@ html, body {
     height: 250px;
 }
 
-.visa-travel {
+.visa-travel-img {
     position: relative;
     background: url('../images/visas-small.jpg');
     background-position: center;
