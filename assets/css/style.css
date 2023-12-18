@@ -14,7 +14,7 @@ html, body {
 
 .hero-img-home {
     position: relative;
-    background: url('../images/hero-home-small_v2.jpg');
+    background: url('../images/hero-home-small.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
