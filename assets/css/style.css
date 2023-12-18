@@ -462,17 +462,19 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 290px;
     height: 290px;
     width: 290px;    
     background-color: #827686;
     border-radius: 50% 0 50% 0;
-    padding: 5%;
     margin: 10px;
 }
 
 .expertise-section-img {
     padding-bottom: 40px;
+    margin: 0 3rem 0 3rem;
 }
+
 
 
 /*----------------------------------------------------- Sustainability */
@@ -756,6 +758,10 @@ label p {
         padding: 1rem 0 1rem 0;
     }
 
+    .expertise-img-bg-color {
+        margin: 10px 0 ;
+    }
+
 }
 /* --- This media query I sourced from ChatGPT---- */
 @media screen and (max-width: 700px) {
@@ -854,7 +860,22 @@ label p {
 }
 
 @media (max-width: 320px) {
+    
+    .navbar-toggler {
+        top: 9px;
+    }
+    
+    .hero-img-home,
+    .hero-img-what-we-do,
+    .hero-img-sustainability,
+    .hero-img-who-are-we,
+    .hero-img-contact-us {
+        margin-top: 50px;
+    }
 
+    .logo-section {
+        font-size: 16px;
+    }
     .contact-hours-info p {
         font-size: 10px;
     }
