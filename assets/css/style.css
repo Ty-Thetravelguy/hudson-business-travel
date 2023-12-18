@@ -309,7 +309,7 @@ p {
 }
 
 #why-choose-carousel .carousel-item {
-    min-height: 30vh;
+    min-height: 25vh;
   }
 
 .customers h3,
@@ -331,7 +331,7 @@ p {
 }
 
 .logo img {
-    height: 80px;
+    height: 60px;
     display: block; 
     margin: auto;
 }
@@ -645,11 +645,7 @@ label p {
 
 @media (max-width: 1024px) {
 
-    /* #why-choose-carousel .carousel-item {
-        min-height: 35vh;
-      } */
-
-    .logo img {
+     .logo img {
         height: 50px;
         display: block; 
         margin: auto;
@@ -753,13 +749,7 @@ label p {
     #why-choose-carousel .carousel-item {
         min-height: 35vh;
       }
-
-    .logo img {
-        height: 50px;
-        display: block; 
-        margin: auto;
-    }
-
+    
     .logo {
         padding: 1rem 0 1rem 0;
     }
@@ -850,7 +840,7 @@ label p {
     }
 
     #why-choose-carousel .carousel-item {
-        min-height: 60vh;
+        min-height: 50vh;
       }
 
     .logo img {
@@ -876,7 +866,7 @@ label p {
     }
 
     #why-choose-carousel .carousel-item {
-        min-height: 65vh;
+        min-height: 60vh;
       }
 
     .logo img {
