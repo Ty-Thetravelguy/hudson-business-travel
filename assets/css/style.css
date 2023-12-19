@@ -290,7 +290,6 @@ p {
 .why-section-heading h2 {
     font-size: 70px;
     letter-spacing: 1px;
-    text-wrap: balance;
 }
 
 .why-section h5 {
@@ -300,7 +299,6 @@ p {
 
 .why-section p {
     font-size: 18px;
-    text-wrap: balance;
 }
 
 .why-section-context {
@@ -317,7 +315,6 @@ p {
     padding-top: 2rem;
     font-size: 60px;
     color: #2f4858;
-    text-wrap: balance;
 }
 
 .video-background {
@@ -427,7 +424,6 @@ p {
 .expertise-section p {
     font-size: 18px;
     color: #2f4858;
-    text-wrap: balance;
 }
 
 .what-text-content-section p {
@@ -501,7 +497,6 @@ p {
     padding: 40px 0 20px 0;
     color: #2f4858;
     letter-spacing: 1px;
-    text-wrap: balance;
 }
 
 .meet-the-team p,
@@ -509,7 +504,6 @@ p {
 .values-content p {
     font-size: 18px;
     color: #2f4858;
-    text-wrap: balance;
 }
 
 .vision-section h3,
