@@ -138,9 +138,10 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 250px;
-    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
     border-radius: 50%;
+    
 }
 
 .cfo-img {
@@ -149,8 +150,8 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 250px;
-    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
     border-radius: 50%;
 }
 
@@ -160,8 +161,8 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 250px;
-    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
     border-radius: 50%;
 }
 
@@ -171,8 +172,8 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 250px;
-    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
     border-radius: 50%;
 }
 
@@ -182,8 +183,8 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 250px;
-    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
     border-radius: 50%;
 }
 
@@ -193,8 +194,8 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 250px;
-    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
     border-radius: 50%;
 }
 
@@ -513,28 +514,22 @@ p {
     letter-spacing: 1px; 
 }
 
+.staff-member {
+    margin: 2rem;
+}
+
 .staff-names {
     position: absolute;
-    bottom: -60px;
-    right: -10px;
-    width: 270px;
-    background: rgba(47, 72, 88, 0.8);
+    top: 210px;
+    width: 250px;
     text-align: center;
-    padding: 5px 0;
+    background-color: rgba(47, 72, 88, 0.8);
     color: #DDD0C8;
+    padding: 16px 0 5px;
 }
 
 .staff-names h5 {
-    margin-top: 12px;
     margin-bottom: 0;
-}
-
-.staff-names p {
-    margin-bottom: 12px;
-}
-
-.staff-member {
-    margin: 3rem;
 }
 
 .vision-section {
@@ -651,10 +646,6 @@ label p {
         padding: 1rem 0 1rem 0;
     }
 
-    .expertise-section-img {
-        margin: 0.5rem;
-    }
-
     .corp-travel-img,
     .private-jet-travel-img,
     .marine-travel-img,
@@ -680,21 +671,31 @@ label p {
         margin: 1rem;
     }
 
+    .expertise-text h5 {
+        font-size: 18px;
+    }
+
     .ceo-img,
     .cfo-img,
     .hoops-img,
     .hoaacc-img,
     .hoacc-man-img,
     .hocom-img {
-        width: 210px;
-        height: 210px;
+        min-width: 210px;
+        min-height: 210px;
+        margin: 0;
     }
 
     .staff-names {
-        right: 0px;
+        top: 170px;
         width: 210px;
+        padding-top: 14px;
+    }
+
+    .staff-names p {
         font-size: 15px;
     }
+
 }
 
 @media (max-width: 768px) {
