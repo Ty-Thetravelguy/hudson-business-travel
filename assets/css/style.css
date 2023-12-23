@@ -18,7 +18,7 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
     margin-top: 60px;
 }
 
@@ -289,7 +289,7 @@ p {
 }
 
 .why-section-heading h2 {
-    font-size: 70px;
+    font-size: 65px;
     letter-spacing: 1px;
 }
 
@@ -636,13 +636,22 @@ label p {
 
 @media (max-width: 1024px) {
 
+    .hero-img-home {
+        height: 50vh;
+    }
+
     .question-section h1 {
-        font-size: 50px;
+        font-size: 55px;
     }
 
     .why-section-heading h2 {
         font-size: 45px;
         letter-spacing: 1px;
+    }
+
+    .customers h3,
+    .partner-logo-section h3 {
+        font-size: 40px;
     }
 
      .logo img {
@@ -754,7 +763,7 @@ label p {
     .sustainability-section h1,
     .meet-the-team h1,
     .contact-section h1 {
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .customers h3,
@@ -820,13 +829,7 @@ label p {
       height: auto; 
     }
   }
-  
 
-@media (min-width:433px) and  (max-width:529px) {
-    .question-section {
-        top: 15%;
-    }
-}
 
 @media (min-width:426px) and  (max-width:767px) {
     #why-choose-carousel .carousel-item {
@@ -844,10 +847,6 @@ label p {
         top: 15px;
     }
 
-    /* .hero-img-home {
-        height: 50vh;
-    } */
-
     .question-section {
         top: 10%;
     }
@@ -860,7 +859,7 @@ label p {
     .what-text-content-section h1,
     .sustainability-section h1,
     .meet-the-team h1 {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     .customers h3,
