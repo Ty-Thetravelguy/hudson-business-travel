@@ -1,0 +1,223 @@
+[33mcommit 49a1d53935eb22d698cfcf517ad4989a4a4cf558[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Wed Dec 20 08:28:40 2023 +0000
+
+    Change html format for who-we-are staff-member imgs and styled
+
+[33mcommit f4ad00bfd3ab70ccb1edf23172f90a2f55dbb111[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Tue Dec 19 08:44:46 2023 +0000
+
+    Removed text-wrap:balance
+
+[33mcommit c3357efbeb6ed017e13025b1e027b09b9844222c[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Tue Dec 19 08:34:04 2023 +0000
+
+    changed img sizes on smaller screens for what-we-do and who-are-we, and additionally, made the hero-home-img smaller
+
+[33mcommit c0ef6592d08baa4754fedcfa47860c23e4a7bde8[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Mon Dec 18 21:19:33 2023 +0000
+
+    change height of hero-img-home
+
+[33mcommit 6c4822943cc96fb97639fd2b72d0a00cd5be76dc[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Mon Dec 18 21:07:45 2023 +0000
+
+    Added Favicon to pages
+
+[33mcommit c89a9eb6ec6ce25ee503572fba92c7cb42cfa868[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Mon Dec 18 20:48:17 2023 +0000
+
+    Working on Expertise img section
+
+[33mcommit 29320083d1fc4afd0a96b6a7fb65aeba88b9aeec[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Mon Dec 18 16:07:22 2023 +0000
+
+    Working on expertise imgs row and cols
+
+[33mcommit ac206dc63dffee6c631bd10bdb7afb1ad260923c[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Mon Dec 18 15:25:06 2023 +0000
+
+    working on expertise img row and col
+
+[33mcommit dbeb2159a76f6ad4f1ffaf4f21682581ae8d8963[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Mon Dec 18 14:26:48 2023 +0000
+
+    changed some boarder-radious on expertise img layover
+
+[33mcommit 997efc239913b3a25cd92b11c28b4edc64edf1ac[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Mon Dec 18 14:07:36 2023 +0000
+
+    fixed css for carousel
+
+[33mcommit b02eef21ccf9913d798da0f4055e4c075acc1215[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Mon Dec 18 14:02:25 2023 +0000
+
+    fixed carousel controls
+
+[33mcommit e3e623a3c6edd982f68ec3b76877011582ebfcad[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Mon Dec 18 08:57:48 2023 +0000
+
+    change the size of partner logos
+
+[33mcommit 1f1dc6905a9c1881c554362958d83d352c50ea46[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Mon Dec 18 07:15:17 2023 +0000
+
+    Stylied the partner logos
+
+[33mcommit 3fb924cdc0280aa0254f7fc77d1ec60a294c9629[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Sun Dec 17 14:58:25 2023 +0000
+
+    Added some more styling to what-we-do-imgs
+
+[33mcommit bfb10893f8e53dae9278830778183c0cb09a6cd0[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Sun Dec 17 12:52:29 2023 +0000
+
+    added our partners section
+
+[33mcommit 25ab37016b5d8a0a58da66271d7304977d665890[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Sat Dec 16 15:40:09 2023 +0000
+
+    add carousel section
+
+[33mcommit e91a46af14a1b2d5b3c8a00809d91d48240cd616[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Sat Dec 16 14:14:47 2023 +0000
+
+    Fixed styling on why-section and customer video header
+
+[33mcommit 1a5acd40aa14cfc4dd63c672b79f8e171b7d66a3[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Sat Dec 16 12:49:29 2023 +0000
+
+    shorted customer-centricity and excellence paragraphs
+
+[33mcommit bd51c9cae107be9a41a6b7d52c4b005ded947d1e[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Sat Dec 16 12:41:48 2023 +0000
+
+    fixed some padding on why-section heading
+
+[33mcommit 04f7a1dfb28800d0446d58e690c62360540b6454[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Sat Dec 16 12:16:49 2023 +0000
+
+    added text-wrap:balance css for our vision and values
+
+[33mcommit f427eff224cfd6c32174fcc915759598811aaf6b[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Sat Dec 16 12:05:25 2023 +0000
+
+    fixed customer video heading
+
+[33mcommit 7ec9be7b491ec0fc151608ecba43a67d7c9b18ed[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Sat Dec 16 10:47:25 2023 +0000
+
+    Updated Readme file
+
+[33mcommit ac252cd009c442e701b020915af43b83be62e7cc[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Sat Dec 16 10:17:29 2023 +0000
+
+    finished styling vidoe
+
+[33mcommit 3a1ad13bbc1737cbc548b777a067aa9f1767d900[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Wed Dec 13 07:54:52 2023 +0000
+
+    Added final screenshots to readme file
+
+[33mcommit d3843029efef877f5875f2a6ee1041845747310a[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Tue Dec 12 08:56:50 2023 +0000
+
+    Fxied spelling errors in read me file
+
+[33mcommit 686417fa80017ea1bdb5509273478c04368d5e32[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Tue Dec 12 08:44:24 2023 +0000
+
+    added lighthouse screenshots and add more notes in the html of which code i copied
+
+[33mcommit babbb0ff34e5419d36183fbe57a06dd2e18b8e68[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Tue Dec 12 07:13:51 2023 +0000
+
+    changed margins around staff-names so it looked better
+
+[33mcommit 2b35405a610f9a16565ba95a5194bfdfedb48b07[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Tue Dec 12 07:00:37 2023 +0000
+
+    Updated link to find Hudson Business Travel to pass lighthouse test
+
+[33mcommit bd1efdc79e715361d12862d4cf9c56000afc3550[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Mon Dec 11 08:45:40 2023 +0000
+
+    Added more context to credits and added 'Contact us' to one of the meta fields on the contact us page to see if the improved the score in lighthouse.
+
+[33mcommit 331c2424afb49368fbca1b80f03f3c43b298d735[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Mon Dec 11 08:37:16 2023 +0000
+
+    Added more context under technoligies used and testing
+
+[33mcommit deb9feffdba082c053f395d453ba39313f2a6414[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Sun Dec 10 16:29:34 2023 +0000
+
+    added mockup image and table of contents to readme
+
+[33mcommit 821f860dfe6b7d03573b19dd3c03ebb9c781f9ca[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Sun Dec 10 12:16:06 2023 +0000
+
+    Made button a little smaller for very small screens as it looked odd
+
+[33mcommit 55ee041a85294a5191b1c0f540e37a149bf7c5e6[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Sun Dec 10 11:59:21 2023 +0000
+
+    amended some of the media queries to enqure better viewing on smaller devises
+
+[33mcommit 754c10a3dbbd5dd35dd2ab5cf0b3dbecdb153917[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Sat Dec 9 11:28:40 2023 +0000
+
+    added a 0 to our open times
+
+[33mcommit 3f6aabcf65b6b4b9c893016cc86177b2ab0bf2fa[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Sat Dec 9 11:19:29 2023 +0000
+
+    changed the linear-gradient on smaller screensizes to help font pop more
+
+[33mcommit cb5ca75549b96432ab46fe3abbf36a2a31453eaf[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Sat Dec 9 11:15:00 2023 +0000
+
+    added some more media queiry to improve how the question-section appeared on smaller screens
+
+[33mcommit 12a8cfd74080f56bd7689a5cfed898e9a0be77b1[m
+Author: Tyrone <145229174+Ty-Thetravelguy@users.noreply.github.com>
+Date:   Sat Dec 9 09:58:31 2023 +0000
+
+    Added margin-top to all hero images
+
+[33mcommit 8737e

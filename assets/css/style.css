@@ -14,11 +14,11 @@ html, body {
 
 .hero-img-home {
     position: relative;
-    background: url('../images/hero-home-small_v3.jpg');
+    background: url('../images/hero-home-small-v8.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
     margin-top: 60px;
 }
 
@@ -636,6 +636,15 @@ label p {
 
 @media (max-width: 1024px) {
 
+    .question-section h1 {
+        font-size: 50px;
+    }
+
+    .why-section-heading h2 {
+        font-size: 45px;
+        letter-spacing: 1px;
+    }
+
      .logo img {
         height: 50px;
         display: block; 
@@ -723,7 +732,7 @@ label p {
     }
 
     .hero-img-home {
-        height: 70vh;
+        height: 35vh;
     }
 
     .hero-img-home::before {
@@ -835,9 +844,9 @@ label p {
         top: 15px;
     }
 
-    .hero-img-home {
+    /* .hero-img-home {
         height: 50vh;
-    }
+    } */
 
     .question-section {
         top: 10%;
