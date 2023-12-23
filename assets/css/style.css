@@ -14,7 +14,7 @@ html, body {
 
 .hero-img-home {
     position: relative;
-    background: url('../images/hero-home-small-v8.webp');
+    background: url('../images/hero-home-small-v9.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -637,7 +637,7 @@ label p {
 @media (max-width: 1024px) {
 
     .hero-img-home {
-        height: 50vh;
+        height: 60vh;
     }
 
     .question-section h1 {
@@ -740,10 +740,6 @@ label p {
         height: 20px;
     }
 
-    .hero-img-home {
-        height: 35vh;
-    }
-
     .hero-img-home::before {
         background: linear-gradient(to right, #ffffff00, #DDD0C8); 
     }
@@ -838,6 +834,10 @@ label p {
 }
 
 @media (max-width: 425px) {
+   
+    .hero-img-home {
+        height: 30vh;
+    }
 
     .logo-section {
         font-size: 24px;
@@ -911,12 +911,12 @@ label p {
     .hero-img-sustainability,
     .hero-img-who-are-we,
     .hero-img-contact-us {
-        margin-top: 0px;
+        margin-top: 40px;
     }
 
     .question-section h1 {
-        padding-top: 30px;
-        font-size: 25px;
+        padding-top: 10px;
+        font-size: 20px;
     }
 
     .logo-section {
