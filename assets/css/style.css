@@ -14,7 +14,7 @@ html, body {
 
 .hero-img-home {
     position: relative;
-    background: url('../images/hero-home-small-v9.webp');
+    background: url('../images/hero-home-img-small-v1.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +34,7 @@ html, body {
 
 .hero-img-what-we-do {
     position: relative;
-    background: url('../images/hero-what-we-do-small-v2.jpg');
+    background: url('../images/hero-what-we-do-small-v1.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,7 +44,7 @@ html, body {
 
 .hero-img-sustainability {
     position: relative;
-    background: url('../images/hero-sustainability-small-v3.jpg');
+    background: url('../images/sustainability-small-v1.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@ html, body {
 
 .hero-img-who-are-we {
     position: relative;
-    background: url('../images/hero-who-are-we-v2.jpg');
+    background: url('../images/who-are-we-v1.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,7 +64,7 @@ html, body {
 
 .hero-img-contact-us {
     position: relative;
-    background: url('../images/hero-contact-us-small-v2.jpg');
+    background: url('../images/contact-us-v1.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,7 +74,7 @@ html, body {
 
 .corp-travel-img {
     position: relative;
-    background: url('../images/corporate-travel-small.jpg');
+    background: url('../images/corporate-travel-small-v1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,7 +84,7 @@ html, body {
 
 .private-jet-travel-img {
     position: relative;
-    background: url('../images/private-jet-small.jpg');
+    background: url('../images/private-jet-small-v1.jpg');
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,7 +94,7 @@ html, body {
 
 .marine-travel-img {
     position: relative;
-    background: url('../images/marine-travel-small.jpg');
+    background: url('../images/marine-travel-small-v1.jpg');
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,7 +104,7 @@ html, body {
 
 .group-travel-img {
     position: relative;
-    background: url('../images/groups-small.jpg');
+    background: url('../images/groups-small-v1.jpg');
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,7 +114,7 @@ html, body {
 
 .meeting-room-img {
     position: relative;
-    background: url('../images/meetings-small.jpg');
+    background: url('../images/meetings-small-v1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,7 +124,7 @@ html, body {
 
 .visa-travel-img {
     position: relative;
-    background: url('../images/visas-small.jpg');
+    background: url('../images/visas-small-v1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,7 +145,7 @@ html, body {
 }
 
 .cfo-img {
-    background: url('../images/cfo-small.jpg');
+    background: url('../images/cfo-small-v1.jpg');
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -156,7 +156,7 @@ html, body {
 }
 
 .hoops-img {
-    background: url('../images/head-of-ops-small.jpg');
+    background: url('../images/head-of-ops-small-v1.webp');
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -167,7 +167,7 @@ html, body {
 }
 
 .hoaacc-img {
-    background: url('../images/head-of-accounts-small.jpg');
+    background: url('../images/head-of-accounts-small-v1.webp');
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -178,7 +178,7 @@ html, body {
 }
 
 .hoacc-man-img {
-    background: url('../images/head-of-account-managment-small.jpeg');
+    background: url('../images/head-of-account-managment-small-v1.webp');
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -189,7 +189,7 @@ html, body {
 }
 
 .hocom-img {
-    background: url('../images/head-of-commerrcials-small.jpg');
+    background: url('../images/head-of-commerrcials-small-v1.webp');
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
