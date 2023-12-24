@@ -199,6 +199,25 @@ html, body {
     border-radius: 50%;
 }
 
+/*----------------------------------------------------- Background Colours */
+
+.why-section-bg-color,
+.what-section-bg-color,
+.sustainability-section-bg-color,
+.who-are-we-section-bg-color,
+.contact-us-section-bg-color {
+    background-color: #DDD0C8;
+}
+
+/*----------------------------------------------------- Fonts */
+
+h1, h2, h3, h5 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
 
 /*----------------------------------------------------- Nav Bar */
 
@@ -875,7 +894,7 @@ label p {
     .logo {
         padding: 1rem 0 1rem 0;
     }
-
+    
 }
 /* --- This media query I sourced from ChatGPT---- */
 @media screen and (max-width: 700px) {
