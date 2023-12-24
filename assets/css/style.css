@@ -923,7 +923,7 @@ label p {
 @media (max-width: 425px) {
    
         
-    .hero-img-home
+    .hero-img-home,
     .hero-img-what-we-do,
     .hero-img-sustainability,
     .hero-img-who-are-we,
@@ -1000,6 +1000,8 @@ label p {
     .navbar-toggler {
         top: 9px;
     }
+
+    .
     
     .hero-img-home,
     .hero-img-what-we-do,
