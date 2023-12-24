@@ -14,7 +14,7 @@ html, body {
 
 .hero-img-home {
     position: relative;
-    background: url('../images/hero-home-img-small-v1.webp');
+    background: url('../images/hero-home-img-dsk-v3.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +34,7 @@ html, body {
 
 .hero-img-what-we-do {
     position: relative;
-    background: url('../images/hero-what-we-do-small-v1.webp');
+    background: url('../images/hero-what-we-do-2000px.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -637,7 +637,22 @@ label p {
 @media (max-width: 1024px) {
 
     .hero-img-home {
+        background: url('../images/hero-home-1000px.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 60vh;
+        margin-top: 60px;
+    }
+
+    .hero-img-what-we-do {
+        position: relative;
+        background: url('../images/hero-what-we-do-1000px.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        margin-top: 60px;
     }
 
     .question-section h1 {
@@ -740,12 +755,30 @@ label p {
         height: 20px;
     }
 
+    .hero-img-home {
+        background: url('../images/hero-home-img-mob-v2.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        margin-top: 60px;
+    }
+
     .hero-img-home::before {
         background: linear-gradient(to right, #ffffff00, #DDD0C8); 
     }
 
+    .hero-img-what-we-do {
+        position: relative;
+        background: url('../images/hero-what-we-do-768px.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        margin-top: 60px;
+    }
+
     .hero-img-sustainability,
-    .hero-img-what-we-do,
     .hero-img-who-are-we {
         height: 50vh;
     }
@@ -759,7 +792,7 @@ label p {
     .sustainability-section h1,
     .meet-the-team h1,
     .contact-section h1 {
-        font-size: 30px;
+        font-size: 38px;
     }
 
     .customers h3,
@@ -835,6 +868,7 @@ label p {
 
 @media (max-width: 425px) {
    
+        
     .hero-img-home {
         height: 30vh;
     }
@@ -912,6 +946,15 @@ label p {
     .hero-img-who-are-we,
     .hero-img-contact-us {
         margin-top: 40px;
+    }
+
+    .hero-img-home {
+        /* background: url('../images/hero-home-330px.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        height: 20vh;
+        /* margin-top: 60px; */
     }
 
     .question-section h1 {
