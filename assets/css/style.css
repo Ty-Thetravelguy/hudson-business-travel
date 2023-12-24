@@ -10,6 +10,23 @@ html, body {
     overflow-x: hidden;
 }
 
+.why-section-bg-color,
+.what-section-bg-color,
+.sustainability-section-bg-color,
+.who-are-we-section-bg-color,
+.contact-us-section-bg-color {
+    background-color: #DDD0C8;
+}
+
+h1, h2, h3, h5 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
 /*----------------------------------------------------- Images */
 
 .hero-img-home {
@@ -197,26 +214,6 @@ html, body {
     min-width: 250px;
     min-height: 250px;
     border-radius: 50%;
-}
-
-/*----------------------------------------------------- Background Colours */
-
-.why-section-bg-color,
-.what-section-bg-color,
-.sustainability-section-bg-color,
-.who-are-we-section-bg-color,
-.contact-us-section-bg-color {
-    background-color: #DDD0C8;
-}
-
-/*----------------------------------------------------- Fonts */
-
-h1, h2, h3, h5 {
-    font-family: 'Bebas Neue', sans-serif;
-}
-
-p {
-    font-family: 'Roboto', sans-serif;
 }
 
 /*----------------------------------------------------- Nav Bar */
@@ -469,8 +466,6 @@ p {
 .expertise-section-img {
     margin: 2rem;
 }
-
-
 
 /*----------------------------------------------------- Sustainability */
 
@@ -896,6 +891,7 @@ label p {
     .logo {
         padding: 1rem 0 1rem 0;
     }
+
 }
 /* --- This media query I sourced from ChatGPT---- */
 @media screen and (max-width: 700px) {
@@ -911,6 +907,7 @@ label p {
     .ratio {
       height: auto; 
     }
+
   }
 
 
@@ -918,10 +915,10 @@ label p {
     #why-choose-carousel .carousel-item {
         min-height: 50vh;
       }
+
 }
 
 @media (max-width: 425px) {
-   
         
     .hero-img-home,
     .hero-img-what-we-do,
