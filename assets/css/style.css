@@ -10,23 +10,6 @@ html, body {
     overflow-x: hidden;
 }
 
-.why-section-bg-color,
-.what-section-bg-color,
-.sustainability-section-bg-color,
-.who-are-we-section-bg-color,
-.contact-us-section-bg-color {
-    background-color: #DDD0C8;
-}
-
-h1, h2, h3, h5 {
-    font-family: 'Bebas Neue', sans-serif;
-}
-
-p {
-    font-family: 'Roboto', sans-serif;
-}
-
-
 /*----------------------------------------------------- Images */
 
 .hero-img-home {
@@ -215,6 +198,7 @@ p {
     min-height: 250px;
     border-radius: 50%;
 }
+
 
 /*----------------------------------------------------- Nav Bar */
 
