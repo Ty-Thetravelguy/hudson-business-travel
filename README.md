@@ -326,7 +326,7 @@ If you would like to work on my project further, you can clone mine or create yo
 ## Credits
 
 * My mentor Spencer Barriball.
-  * Spencer reminded me to use lighthouse, explained my pictures were too big at first, and we discussed that I should remove the iframe, but I chose to keep it but hide it on smaller devises.
+  * Spencer reminded me to use lighthouse, explained my pictures were too big at first, and we discussed that I should remove the iframe, but I chose to keep it but hide it on smaller devises. He also advised to add a Favicon and a 404 page.
 * Sarah from code Institute Tutor Assistance.
   * I chatted to Sarah when trying to fix my navbar.
 * My collage colleague Lewis Beaven.
