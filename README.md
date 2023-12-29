@@ -150,27 +150,51 @@ I ran the website through [W3C Markup Validation Service](https://validator.w3.o
 
 I ran the website through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). I discovered errors and warnings in the Bootstrap CSS, and similarly, my custom CSS showed warnings due to the buttons having the same background colour as their borders. However, this design choice was intentional to maintain a consistent and seamless aesthetic throughout the website.
 
-I also ran each page through [Lighthouse via Google Developer Tools](https://developer.chrome.com/docs/lighthouse/overview/) aiming to significantly elevate the overall quality of the website. This comprehensive analysis helped identify and address key aspects of performance, accessibility, best practices, and SEO to enhance the site's effectiveness and user experience.
+I also ran each page through [Lighthouse via Microsoft Edge](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/accessibility/lighthouse) aiming to significantly elevate the overall quality of the website. This comprehensive analysis helped identify and address key aspects of performance, accessibility, best practices, and SEO to enhance the site's effectiveness and user experience. I ran this for both desktop and mobile.
 
-### Home Page
+### Desktop
 
-![index.html](assets/images-readme/lh-index.png)
+#### Desktop Home page
 
-### What We Do Page
+![index.html](assets/images-readme/lighthouse-dt-index.png)
 
-![what-we-do](assets/images-readme/lh-what-we-do.png)
+#### Desktop What We Do page
 
-### Sustainability Page
+![what-we-do](assets/images-readme/lighthouse-dt-what-we-do.png)
 
-![sustainability](assets/images-readme/lh-sustainability.png)
+#### Desktop Sustainability page
 
-### Who Are We Page
+![sustainability](assets/images-readme/lighthouse-dt-sustainability.png)
 
-![who-are-we](assets/images-readme/lh-who-are-we.png)
+#### Desktop Who Are We page
 
-### Contact Us Page
+![who-are-we](assets/images-readme/lighthouse-dt-who-are-we.png)
 
-![contact-us](assets/images-readme/lh-contact-us.png)
+#### Desktop Contact Us page
+
+![contact-us](assets/images-readme/lighthouse-dt-contact-us.png)
+
+### Mobile
+
+#### Mobile Home page
+
+![index.html](assets/images-readme/lighthouse-mb-index.png)
+
+#### Mobile What We Do page
+
+![what-we-do](assets/images-readme/lighthouse-mb-what-we-do.png)
+
+#### Mobile Sustainability page
+
+![sustainability](assets/images-readme/lighthouse-mb-sustainability.png)
+
+#### Mobile Who Are We page
+
+![who-are-we](assets/images-readme/lighthouse-mb-who-are-we.png)
+
+#### Mobile Contact Us page
+
+![contact-us](assets/images-readme/lighthouse-mb-contact-us.png)
 
 I also conducted extensive cross-browser testing, meticulously reviewing the website in various browsers. During this process, I systematically clicked on every link on each page to verify their functionality and ensure a consistent, error-free user experience across different platforms.
 
@@ -233,41 +257,71 @@ If you would like to work on my project further, you can clone mine or create yo
 
 ## Screenshots
 
-### Corporate Identity
+### Home
 
-![Corporate Identity](assets/images-readme/ss-corporate-identity.png)
+#### Home Page 1 - Navigation bar & hero image
 
-### Navigation Bar
+![Home page 1](assets/images-readme/ss-home-1.png)
 
-![Navigation Bar](assets/images-readme/ss-navbar.png)
+#### Home Page 2 - Why section with customer video
+
+![Home page 2](assets/images-readme/ss-home-2.png)
+
+#### Home Page 3 - Our partner and footer
+
+![Home page 3](assets/images-readme/ss-home-3.png)
 
 ### What We Do
 
-![What We Do](assets/images-readme/ss-what-we-do.png)
+#### What We Do Page 1 - Navigation bar & hero image
 
-### Customer Video
+![What we do page 1](assets/images-readme/ss-what-we-do-1.png)
 
-![Video](assets/images-readme/ss-video.png)
+#### What We Do Page 2 - What we do and expertise section
+
+![What we do page 2](assets/images-readme/ss-what-we-do-2.png)
+
+#### What We Do Page 3 - Continue of expertise section and footer
+
+![What we do page 3](assets/images-readme/ss-what-we-do-3.png)
 
 ### Sustainability
 
-![Sustainability](assets/images-readme/ss-sustainability.png)
+#### Sustainability Page 1 - Navigation bar & hero image
 
-### Meet the Team
+![Sustainability page 1](assets/images-readme/ss-sustainability-1.png)
 
-![Meet the Team](assets/images-readme/ss-meet-the-team.png)
+#### Sustainability Page 2 - Sustainability seciton and footer
 
-### Vision and Values
+![Sustainability page 2](assets/images-readme/ss-sustainability-2.png)
 
-![Vision and Values](assets/images-readme/ss-vision&values.png)
+### Who Are We
 
-### Contact information
+#### Who Are We Page 1 - Navigation bar & hero image
 
-![Contact inforamtion](assets/images-readme/ss-contact-us.png)
+![Who Are We page 1](assets/images-readme/ss-who-are-we-1.png)
 
-### Contact information in the Footer
+#### Who Are We Page 2 - Meet the team section
 
-![Contact inforamtion in footer](assets/images-readme/ss-footer-contact.png)
+![Who Are We page 2](assets/images-readme/ss-who-are-we-2.png)
+
+#### Who Are We Page 3 - Vision and Values section with footer
+
+![Who Are We page 3](assets/images-readme/ss-who-are-we-3.png)
+
+### Contact Us
+
+#### Contact Us Page 1 - Navigation bar & hero image
+
+![Contact Us page 1](assets/images-readme/ss-contact-us-1.png)
+
+#### Contact Us Page 2 - Contact us form
+
+![Contact Us page 2](assets/images-readme/ss-contact-us-2.png)
+
+#### Contact Us Page 3 - Location with google map and footer
+
+![Contact Us page 3](assets/images-readme/ss-contact-us-3.png)
 
 ## Credits
 
