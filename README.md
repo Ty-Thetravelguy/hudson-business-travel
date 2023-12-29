@@ -10,7 +10,7 @@ At the core of Hudson Business Travel’s ethos is a relentless drive for innova
 
 *Please note that Hudson Business Travel is a fictional entity, created specifically for my Milestone Project 1.*
 
-![Mockup](assets/images-readme/mockup%20img.png)
+![Mockup](assets/images-readme/mockup_img_v2.png)
 
 Click [Here](https://ty-thetravelguy.github.io/hudson-business-travel-milestone-project-1/) to view the webpage.
 
